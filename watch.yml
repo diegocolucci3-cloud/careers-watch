@@ -1,0 +1,32 @@
+name: careers-watch
+
+on:
+  schedule:
+    - cron: "30 5 * * 1-5"   # 05:30 UTC on weekdays = 06:30 Amsterdam in winter, 07:30 in summer
+  workflow_dispatch:          # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Read careers pages
+        run: python watch.py
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "watch $(date -u +%F)" || exit 0
+          git push
