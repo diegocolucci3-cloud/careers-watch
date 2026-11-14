@@ -134,17 +134,16 @@ def tixly(page):
     url = "https://tixly.careers.hibob.com/jobs"
     found = page_links(page, url, r"hibob\.com/jobs/[^/]+", exclude=r"/jobs$")
     if not found:
-        # Save what the browser saw so the reader can be fixed
-        dump = {
-            "final_url": page.url,
-            "title": page.title(),
-            "links": page.eval_on_selector_all("a[href]", "els => els.map(e => [e.href, e.innerText.slice(0,80)])")[:80],
-            "text": " ".join(page.inner_text("body").split())[:4000],
-            "html_head": page.content()[:6000],
-        }
-        DATA.mkdir(exist_ok=True)
-        (DATA / "debug_tixly.json").write_text(json.dumps(dump, indent=1, ensure_ascii=False))
-        raise RuntimeError("no job links found on rendered page (see data/debug_tixly.json)")
+        # HiBob job cards are not links: watch the rendered job-list text instead
+        text = " ".join(page.inner_text("body").split())
+        m = re.search(r"Total:\s*(\d+)", text)
+        if not m:
+            raise RuntimeError("job list not found on rendered page")
+        snippet = text[m.start():m.start() + 1500]
+        h = hashlib.sha256(snippet.encode()).hexdigest()[:12]
+        it = item(f"list-{h}", f"Job list changed ({m.group(0)} openings) - read snippet", url)
+        it["snippet"] = snippet
+        return {it["id"]: it}
     return found
 
 
