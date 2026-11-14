@@ -1,0 +1,30 @@
+{
+ "run_at": "2026-11-14T23:30:19+00:00",
+ "new": [],
+ "closed": [],
+ "errors": {
+  "Tixly": "RuntimeError: no job links found on rendered page (layout may have changed)"
+ },
+ "baseline_sources": [
+  "Weeztix",
+  "CM.com",
+  "Fever",
+  "Stager",
+  "Celebratix",
+  "WeTicket",
+  "Bleep",
+  "Fastlane",
+  "Eventim"
+ ],
+ "counts": {
+  "Weeztix": 7,
+  "CM.com": 18,
+  "Fever": 12,
+  "Stager": 1,
+  "Celebratix": 1,
+  "WeTicket": 1,
+  "Bleep": 1,
+  "Fastlane": 5,
+  "Eventim": 4
+ }
+}
