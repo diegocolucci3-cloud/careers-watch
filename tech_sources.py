@@ -74,6 +74,8 @@ def netflix():
         if not pos:
             break
         for p in pos:
+            if not in_nl(p.get("location", "")):
+                continue
             it = item(p["id"], p.get("name"), p.get("canonicalPositionUrl"), p.get("location", ""))
             out[it["id"]] = it
         start += len(pos)
@@ -111,7 +113,6 @@ API_SOURCES = {
     "Channable": lambda: recruitee_api("channable"),
     "Booking": booking,
     "Netflix": netflix,
-    "Uber": uber,
     "Tiqets": lambda: homerun_sitemap("https://tiqets.homerun.co"),
 }
 
@@ -148,7 +149,18 @@ def render(page, url, load_more=True):
 
 def jobs_on_page(page, name, url, pattern=JOBLIKE, exclude=None, min_expected=1, nl_only=False, load_more=True):
     render(page, url, load_more)
-    links = page.eval_on_selector_all("a[href]", "els => els.map(e => [e.href, e.innerText])")
+    links = page.eval_on_selector_all("a[href]", """els => els.map(e => {
+        let t = (e.innerText || '').trim();
+        if (/^(apply( now)?|view( role| job)?|read more|learn more|see more|details|more)$/i.test(t)) {
+            let n = e;                      // button-style link: take the job card's text
+            for (let i = 0; i < 5 && n.parentElement; i++) {
+                n = n.parentElement;
+                const c = (n.innerText || '').trim();
+                if (c.length > t.length + 10) { t = c.replace(/^(apply( now)?|view( role| job)?)\\s*/i, ''); break; }
+            }
+        }
+        return [e.href, t];
+    })""")
     exc = re.compile(exclude) if exclude else None
     base = url.split("?")[0].rstrip("/")
     out = {}
@@ -217,10 +229,14 @@ def browser_sources():
         "Just Eat Takeaway": jet,
         "Backbase": lambda p: jobs_on_page(p, "Backbase", "https://www.backbase.com/careers/jobs", min_expected=5),
         "Lightspeed": lambda p: jobs_on_page(p, "Lightspeed", "https://www.lightspeedhq.com/careers/openings/", min_expected=5, nl_only=True),
-        "Bird": lambda p: jobs_on_page(p, "Bird", "https://bird.com/careers", min_expected=2),
+        "Bird": lambda p: jobs_on_page(p, "Bird", "https://bird.com/careers",
+                                       re.compile(r"bird\.com/careers/[a-z0-9-]+$"), min_expected=2),
+        "Uber": lambda p: jobs_on_page(p, "Uber", "https://jobs.uber.com/en/jobs/?location=Amsterdam&radius=100",
+                                       re.compile(r"/careers/list/\d+"), min_expected=1, nl_only=True),
         "bunq": lambda p: jobs_on_page(p, "bunq", "https://www.bunq.com/careers", min_expected=3, nl_only=True),
         "Picnic": lambda p: jobs_on_page(p, "Picnic", "https://jobs.picnic.app/en/vacancies", min_expected=5, nl_only=True),
         "Otrium": lambda p: hibob(p, "https://otrium.careers.hibob.com/jobs"),
-        "Swapfiets": lambda p: jobs_on_page(p, "Swapfiets", "https://jobs.swapfiets.com/", min_expected=2),
+        "Swapfiets": lambda p: jobs_on_page(p, "Swapfiets", "https://jobs.swapfiets.com/departments/hq-roles",
+                                            re.compile(r"jobs\.swapfiets\.com/jobs/\d+"), min_expected=2),
         "Sendcloud": lambda p: jobs_on_page(p, "Sendcloud", "https://www.sendcloud.com/careers/", min_expected=2),
     }
