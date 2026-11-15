@@ -1,22 +1,9 @@
 {
- "run_at": "2026-11-15T01:00:52+00:00",
- "new": [
-  {
-   "id": "https://bolt.eu/en/careers/positions/0eaa3a50-323a-4756-80e0-0c6963b94c31",
-   "title": "We are looking for an organized Operations Specialist to support our ride-hailing operations in the Netherlands. Do you enjoy making a direct impact? Read further!",
-   "url": "https://bolt.eu/en/careers/positions/0eaa3a50-323a-4756-80e0-0c6963b94c31",
-   "location": "Apply now | View role",
-   "company": "Bolt"
-  }
- ],
+ "run_at": "2026-11-15T01:08:59+00:00",
+ "new": [],
  "closed": [],
- "errors": {
-  "Uber": "RuntimeError: no job links found (2 links on page) - see data/tech/debug/Uber.json"
- },
- "baseline_sources": [
-  "Bird",
-  "Swapfiets"
- ],
+ "errors": {},
+ "baseline_sources": [],
  "counts": {
   "Adyen": 24,
   "Bol": 5,
