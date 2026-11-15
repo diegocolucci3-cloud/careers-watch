@@ -9,7 +9,10 @@ import pathlib
 import re
 from urllib.parse import urljoin
 
-from watch import http_get, item, recruitee_api, page_text_hash, NL_PLACES, REMOTE_EU
+import hashlib
+import urllib.request
+
+from watch import http_get, item, recruitee_api, homerun_sitemap, page_text_hash, NL_PLACES, REMOTE_EU, UA
 
 DEBUG = pathlib.Path(__file__).parent / "data" / "tech" / "debug"
 
@@ -77,6 +80,28 @@ def netflix():
     return out
 
 
+def uber():
+    out = {}
+    for pg in range(0, 10):
+        body = json.dumps({"params": {"location": [{"country": "NLD", "region": "North Holland", "city": "Amsterdam"}]},
+                           "limit": 50, "page": pg}).encode()
+        req = urllib.request.Request("https://www.uber.com/api/loadSearchJobsResults?localeCode=en", data=body,
+                                     headers={"User-Agent": UA, "Content-Type": "application/json", "x-csrf-token": "x"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            data = json.loads(r.read().decode("utf-8", "replace"))
+        res = (data.get("data") or {}).get("results") or []
+        if not res:
+            break
+        for j in res:
+            locs = [j.get("location") or {}] + (j.get("allLocations") or [])
+            loc = " / ".join(sorted({", ".join(x for x in [l.get("city"), l.get("countryName") or l.get("country")] if x) for l in locs if l}))
+            it = item(j["id"], j.get("title"), f"https://www.uber.com/global/en/careers/list/{j['id']}/", loc)
+            out[it["id"]] = it
+        if len(res) < 50:
+            break
+    return out
+
+
 API_SOURCES = {
     "Adyen": lambda: greenhouse("adyen"),
     "Bol": lambda: greenhouse("bolcom"),
@@ -86,6 +111,8 @@ API_SOURCES = {
     "Channable": lambda: recruitee_api("channable"),
     "Booking": booking,
     "Netflix": netflix,
+    "Uber": uber,
+    "Tiqets": lambda: homerun_sitemap("https://tiqets.homerun.co"),
 }
 
 
@@ -119,8 +146,8 @@ def render(page, url, load_more=True):
                 break
 
 
-def jobs_on_page(page, name, url, pattern=JOBLIKE, exclude=None, min_expected=1):
-    render(page, url)
+def jobs_on_page(page, name, url, pattern=JOBLIKE, exclude=None, min_expected=1, nl_only=False, load_more=True):
+    render(page, url, load_more)
     links = page.eval_on_selector_all("a[href]", "els => els.map(e => [e.href, e.innerText])")
     exc = re.compile(exclude) if exclude else None
     base = url.split("?")[0].rstrip("/")
@@ -135,13 +162,48 @@ def jobs_on_page(page, name, url, pattern=JOBLIKE, exclude=None, min_expected=1)
         if prev and len(prev["title"]) >= len(title):
             continue
         out[href] = item(href, title, href, " | ".join(lines[1:4]))
-    if len(out) < min_expected:
+    raw = len(out)
+    if nl_only:   # site lists jobs worldwide: keep Dutch / remote-Europe ones
+        out = {k: v for k, v in out.items()
+               if in_nl(" ".join([v["title"], v["location"], k])) or "remote" in (v["title"] + v["location"]).lower()}
+    if raw < min_expected:
         # save what the page offered so the reader can be fixed after one run
         DEBUG.mkdir(parents=True, exist_ok=True)
-        sample = [[h, " ".join((t or "").split())[:80]] for h, t in links][:150]
+        sample = [[h, " ".join((t or "").split())[:80]] for h, t in links][:400]
         (DEBUG / f"{name}.json").write_text(json.dumps({"url": url, "final_url": page.url, "links": sample}, indent=1, ensure_ascii=False))
         if not out:
             raise RuntimeError(f"no job links found ({len(links)} links on page) - see data/tech/debug/{name}.json")
+    return out
+
+
+def hibob(page, url):
+    """HiBob job cards are not links: watch the rendered job-list text."""
+    render(page, url, load_more=False)
+    text = " ".join(page.inner_text("body").split())
+    m = re.search(r"Total:\s*(\d+)", text)
+    if not m:
+        raise RuntimeError("job list not found on rendered page")
+    snippet = text[m.start():m.start() + 1500]
+    h = hashlib.sha256(snippet.encode()).hexdigest()[:12]
+    it = item(f"list-{h}", f"Job list changed ({m.group(0)} openings) - read snippet", url)
+    it["snippet"] = snippet
+    return {it["id"]: it}
+
+
+def jet(page):
+    out = {}
+    for off in range(0, 300, 10):
+        url = f"https://careers.justeattakeaway.com/global/en/search-results?location=Netherlands&from={off}&s=1"
+        try:
+            found = jobs_on_page(page, "JET", url, re.compile(r"/job/[^/]+"), min_expected=0, load_more=False)
+        except RuntimeError:
+            found = {}
+        new = {k: v for k, v in found.items() if k not in out}
+        if not new:
+            break
+        out.update(new)
+    if not out:
+        raise RuntimeError("no job links found on search results")
     return out
 
 
@@ -152,15 +214,13 @@ def browser_sources():
                                        re.compile(r"/careers/positions/[0-9a-f-]{36}$")),
         "Vinted": lambda p: jobs_on_page(p, "Vinted", "https://careers.vinted.com/jobs?page=1&city%5B0%5D=Amsterdam&q=", min_expected=5),
         "Catawiki": lambda p: jobs_on_page(p, "Catawiki", "https://catawiki.careers/vacancies?o=0&n=100&of=47810&of=47823&f=92", min_expected=3),
-        "Uber": lambda p: jobs_on_page(p, "Uber", "https://jobs.uber.com/en/jobs/?location=Amsterdam&radius=100", min_expected=5),
-        "Just Eat Takeaway": lambda p: jobs_on_page(p, "JET", "https://careers.justeattakeaway.com/global/en/the-netherlands", min_expected=5),
-        "Tiqets": lambda p: jobs_on_page(p, "Tiqets", "https://www.tiqets.com/careers/", min_expected=3),
+        "Just Eat Takeaway": jet,
         "Backbase": lambda p: jobs_on_page(p, "Backbase", "https://www.backbase.com/careers/jobs", min_expected=5),
-        "Lightspeed": lambda p: jobs_on_page(p, "Lightspeed", "https://www.lightspeedhq.com/careers/openings/", min_expected=5),
+        "Lightspeed": lambda p: jobs_on_page(p, "Lightspeed", "https://www.lightspeedhq.com/careers/openings/", min_expected=5, nl_only=True),
         "Bird": lambda p: jobs_on_page(p, "Bird", "https://bird.com/careers", min_expected=2),
-        "bunq": lambda p: jobs_on_page(p, "bunq", "https://www.bunq.com/careers", min_expected=3),
-        "Picnic": lambda p: jobs_on_page(p, "Picnic", "https://jobs.picnic.app/en/vacancies", min_expected=5),
-        "Otrium": lambda p: jobs_on_page(p, "Otrium", "https://careers.otrium.com/", min_expected=2),
-        "Swapfiets": lambda p: jobs_on_page(p, "Swapfiets", "https://swapfiets.com/careers", min_expected=2),
+        "bunq": lambda p: jobs_on_page(p, "bunq", "https://www.bunq.com/careers", min_expected=3, nl_only=True),
+        "Picnic": lambda p: jobs_on_page(p, "Picnic", "https://jobs.picnic.app/en/vacancies", min_expected=5, nl_only=True),
+        "Otrium": lambda p: hibob(p, "https://otrium.careers.hibob.com/jobs"),
+        "Swapfiets": lambda p: jobs_on_page(p, "Swapfiets", "https://jobs.swapfiets.com/", min_expected=2),
         "Sendcloud": lambda p: jobs_on_page(p, "Sendcloud", "https://www.sendcloud.com/careers/", min_expected=2),
     }

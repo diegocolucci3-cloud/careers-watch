@@ -10,6 +10,7 @@ except Fever, which is limited to Dutch and remote-Europe locations (it has ~560
 import datetime
 import hashlib
 import json
+import os
 import pathlib
 import re
 import urllib.request
@@ -218,6 +219,9 @@ def main(watch_set="ticketing"):
                 current[name] = prev[name]
             continue
         items = results[name]
+        if prefilter and os.environ.get("TECH_DEBUG"):   # test runs: keep the unfiltered list for tuning
+            (DATA / "debug").mkdir(exist_ok=True)
+            (DATA / "debug" / f"raw_{name}.json").write_text(json.dumps(items, indent=1, ensure_ascii=False))
         if prefilter:
             items = {k: v for k, v in items.items() if k.startswith(("page-", "list-")) or keep_title(v["title"])}
         current[name] = {"items": items, "checked_at": now}
