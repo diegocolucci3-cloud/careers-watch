@@ -231,8 +231,7 @@ def browser_sources():
         "Lightspeed": lambda p: jobs_on_page(p, "Lightspeed", "https://www.lightspeedhq.com/careers/openings/", min_expected=5, nl_only=True),
         "Bird": lambda p: jobs_on_page(p, "Bird", "https://bird.com/careers",
                                        re.compile(r"bird\.com/careers/[a-z0-9-]+$"), min_expected=2),
-        "Uber": lambda p: jobs_on_page(p, "Uber", "https://jobs.uber.com/en/jobs/?location=Amsterdam&radius=100",
-                                       re.compile(r"/careers/list/\d+"), min_expected=1, nl_only=True),
+        # Uber: removed 15 Nov 2026 - jobs.uber.com blocks automated browsers (Cloudflare); Diego uses an Uber job alert
         "bunq": lambda p: jobs_on_page(p, "bunq", "https://www.bunq.com/careers", min_expected=3, nl_only=True),
         "Picnic": lambda p: jobs_on_page(p, "Picnic", "https://jobs.picnic.app/en/vacancies", min_expected=5, nl_only=True),
         "Otrium": lambda p: hibob(p, "https://otrium.careers.hibob.com/jobs"),
