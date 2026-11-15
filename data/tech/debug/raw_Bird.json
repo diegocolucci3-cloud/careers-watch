@@ -1,0 +1,20 @@
+{
+ "https://bird.com/careers/associate-technical-account-manager": {
+  "id": "https://bird.com/careers/associate-technical-account-manager",
+  "title": "Associate Technical Account Manager",
+  "url": "https://bird.com/careers/associate-technical-account-manager",
+  "location": "Full-time / Remote, APAC"
+ },
+ "https://bird.com/careers/senior-legal-counsel": {
+  "id": "https://bird.com/careers/senior-legal-counsel",
+  "title": "Senior Legal Counsel",
+  "url": "https://bird.com/careers/senior-legal-counsel",
+  "location": "Full-time / Remote, United States"
+ },
+ "https://bird.com/careers/senior-security-engineer": {
+  "id": "https://bird.com/careers/senior-security-engineer",
+  "title": "Senior Security Engineer",
+  "url": "https://bird.com/careers/senior-security-engineer",
+  "location": "Full-time / Remote, United States (East Coast)"
+ }
+}
