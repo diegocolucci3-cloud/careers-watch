@@ -1,6 +1,6 @@
 {
  "Bleep": {
-  "checked_at": "2026-11-14T23:56:29+00:00",
+  "checked_at": "2026-11-15T00:01:49+00:00",
   "items": {
    "page-f7dba9f468c5": {
     "id": "page-f7dba9f468c5",
@@ -11,7 +11,7 @@
   }
  },
  "CM.com": {
-  "checked_at": "2026-11-14T23:56:29+00:00",
+  "checked_at": "2026-11-15T00:01:49+00:00",
   "items": {
    "2644189": {
     "id": "2644189",
@@ -124,7 +124,7 @@
   }
  },
  "Celebratix": {
-  "checked_at": "2026-11-14T23:56:29+00:00",
+  "checked_at": "2026-11-15T00:01:49+00:00",
   "items": {
    "page-38f9c1cb8948": {
     "id": "page-38f9c1cb8948",
@@ -135,7 +135,7 @@
   }
  },
  "Eventim": {
-  "checked_at": "2026-11-14T23:56:29+00:00",
+  "checked_at": "2026-11-15T00:01:49+00:00",
   "items": {
    "https://careers.eventim.nl/o/client-success-executive-2211": {
     "id": "https://careers.eventim.nl/o/client-success-executive-2211",
@@ -164,7 +164,7 @@
   }
  },
  "Fastlane": {
-  "checked_at": "2026-11-14T23:56:29+00:00",
+  "checked_at": "2026-11-15T00:01:49+00:00",
   "items": {
    "https://www.fastlane.events/vacatures/Vacature-customer-success-manager-accountmanager": {
     "id": "https://www.fastlane.events/vacatures/Vacature-customer-success-manager-accountmanager",
@@ -199,7 +199,7 @@
   }
  },
  "Fever": {
-  "checked_at": "2026-11-14T23:56:29+00:00",
+  "checked_at": "2026-11-15T00:01:49+00:00",
   "items": {
    "4940985101": {
     "id": "4940985101",
@@ -276,7 +276,7 @@
   }
  },
  "Stager": {
-  "checked_at": "2026-11-14T23:56:29+00:00",
+  "checked_at": "2026-11-15T00:01:49+00:00",
   "items": {
    "software-developer": {
     "id": "software-developer",
@@ -286,8 +286,20 @@
    }
   }
  },
+ "Tixly": {
+  "checked_at": "2026-11-15T00:01:49+00:00",
+  "items": {
+   "list-d13bb18cf207": {
+    "id": "list-d13bb18cf207",
+    "location": "",
+    "snippet": "Total: 2 Sort by General application On site · All Posted on Dec 13, 2024 General application - DACH On site · Munich Posted on Dec 30, 2024 General application On site · All Share job Apply Department General Application Employment type Full time Job description Are you excited about the idea of joining a dynamic, global team? We’d love to hear from you! Submit your application, and we’ll get in touch when a position that matches your skills and interests becomes available. Are you passionate about making an impact and being part of a global, innovative team? At Tixly, we’re always looking for talented, driven individuals to join us on our journey to create the best ticketing experience in the world. We are a team of 50+ dedicated professionals, spread across 10 countries, with offices in Iceland, Denmark, Finland, Norway, Sweden, The Netherlands, Germany, the UK, and the US. Our solution powers over 150 venues and theaters around the globe. From managing events and selling millions of tickets online to providing data-driven marketing and customer insights, we enable our customers to create unforgettable experiences for their audiences. At Tixly, we pride ourselves on our collaborative and supportive work culture. Whether you’re working from one of our offices or remotely, you’ll find a flexible and exciting environment where exploration, innovation, and teamwork thrive. We love celebrating wins—big and small—and live by our values: Exploration Innovation Teamwork Fun Trust ",
+    "title": "Job list changed (Total: 2 openings) - read snippet",
+    "url": "https://tixly.careers.hibob.com/jobs"
+   }
+  }
+ },
  "WeTicket": {
-  "checked_at": "2026-11-14T23:56:29+00:00",
+  "checked_at": "2026-11-15T00:01:49+00:00",
   "items": {
    "page-cb9a9216ef2a": {
     "id": "page-cb9a9216ef2a",
@@ -298,7 +310,7 @@
   }
  },
  "Weeztix": {
-  "checked_at": "2026-11-14T23:56:29+00:00",
+  "checked_at": "2026-11-15T00:01:49+00:00",
   "items": {
    "2220560": {
     "id": "2220560",
