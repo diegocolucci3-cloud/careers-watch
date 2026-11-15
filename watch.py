@@ -155,9 +155,32 @@ API_SOURCES = {
 }
 
 
+# ---------- title pre-filter (tech set only: big employers post dozens of irrelevant roles) ----------
+KEEP = re.compile(r"operation|\bops\b|implementation|integration|onboarding|delivery|partner|"
+                  r"product|technical account|\btam\b|solution|customer success|marketplace|"
+                  r"trust|safety|excellence|analyst|enablement|program|project", re.I)
+DROP = re.compile(r"engineer|developer|intern|stage\b|stagiair|werkstudent|working student|"
+                  r"designer|scientist|recruit|counsel|legal|accountant|account executive", re.I)
+
+
+ALWAYS = re.compile(r"(implementation|integration|solutions?|onboarding|partner) (engineer|consultant|specialist|manager)", re.I)
+
+
+def keep_title(t):
+    if ALWAYS.search(t or ""):
+        return True
+    return bool(KEEP.search(t or "")) and not DROP.search(t or "")
+
+
 # ---------- main ----------
-def main():
-    DATA.mkdir(exist_ok=True)
+def main(watch_set="ticketing"):
+    global API_SOURCES, browser_sources, DATA
+    prefilter = False
+    if watch_set == "tech":
+        import tech_sources
+        API_SOURCES, browser_sources = tech_sources.API_SOURCES, tech_sources.browser_sources
+        DATA, prefilter = DATA / "tech", True
+    DATA.mkdir(parents=True, exist_ok=True)
     cur_path = DATA / "current.json"
     prev = json.loads(cur_path.read_text()) if cur_path.exists() else {}
     results, errors = {}, {}
@@ -195,6 +218,8 @@ def main():
                 current[name] = prev[name]
             continue
         items = results[name]
+        if prefilter:
+            items = {k: v for k, v in items.items() if k.startswith(("page-", "list-")) or keep_title(v["title"])}
         current[name] = {"items": items, "checked_at": now}
         if name not in prev:
             baseline.append(name)        # first read: record, don't flood "new"
@@ -215,4 +240,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    main(sys.argv[1] if len(sys.argv) > 1 else "ticketing")

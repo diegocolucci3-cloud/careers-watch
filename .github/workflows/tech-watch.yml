@@ -1,0 +1,36 @@
+name: tech-careers-watch
+
+on:
+  schedule:
+    - cron: "50 5 * * 1,3,5"   # 05:50 UTC Mon/Wed/Fri = 06:50 Amsterdam in winter
+  push:                      # test run whenever the tech reader changes
+    branches: [main]
+    paths: ["tech_sources.py", ".github/workflows/tech-watch.yml"]
+  workflow_dispatch:          # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Read careers pages
+        run: python watch.py tech
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "tech watch $(date -u +%F)" || exit 0
+          git pull --rebase origin main
+          git push origin HEAD:main
