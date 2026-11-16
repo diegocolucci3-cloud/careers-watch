@@ -1,7 +1,15 @@
 {
- "run_at": "2026-11-15T01:08:59+00:00",
+ "run_at": "2026-11-16T07:31:18+00:00",
  "new": [],
- "closed": [],
+ "closed": [
+  {
+   "id": "https://careers.vinted.com/jobs/j/4969830101",
+   "location": "",
+   "title": "Director of Product, AML & Fraud Prevention",
+   "url": "https://careers.vinted.com/jobs/j/4969830101",
+   "company": "Vinted"
+  }
+ ],
  "errors": {},
  "baseline_sources": [],
  "counts": {
@@ -16,7 +24,7 @@
   "Tiqets": 2,
   "Zenchef": 1,
   "Bolt": 1,
-  "Vinted": 4,
+  "Vinted": 3,
   "Catawiki": 2,
   "Just Eat Takeaway": 24,
   "Backbase": 5,
