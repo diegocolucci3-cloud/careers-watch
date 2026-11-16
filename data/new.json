@@ -1,11 +1,9 @@
 {
- "run_at": "2026-11-15T00:01:49+00:00",
+ "run_at": "2026-11-16T07:04:55+00:00",
  "new": [],
  "closed": [],
  "errors": {},
- "baseline_sources": [
-  "Tixly"
- ],
+ "baseline_sources": [],
  "counts": {
   "Weeztix": 7,
   "CM.com": 18,
