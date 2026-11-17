@@ -1,6 +1,14 @@
 {
- "run_at": "2026-11-16T07:04:55+00:00",
- "new": [],
+ "run_at": "2026-11-17T06:28:10+00:00",
+ "new": [
+  {
+   "id": "operations-executive",
+   "title": "Operations Executive",
+   "url": "https://stager.homerun.co/operations-executive",
+   "location": "",
+   "company": "Stager"
+  }
+ ],
  "closed": [],
  "errors": {},
  "baseline_sources": [],
@@ -8,7 +16,7 @@
   "Weeztix": 7,
   "CM.com": 18,
   "Fever": 12,
-  "Stager": 1,
+  "Stager": 2,
   "Celebratix": 1,
   "WeTicket": 1,
   "Bleep": 1,
