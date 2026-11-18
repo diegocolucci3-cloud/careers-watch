@@ -1,6 +1,6 @@
 {
  "ticketing": {
-  "run_at": "2026-11-18T11:31:14+00:00",
+  "run_at": "2026-11-18T11:42:42+00:00",
   "sources": {
    "CM.com": 17,
    "Fever": 11,
@@ -19,11 +19,11 @@
   "baseline": []
  },
  "tech": {
-  "run_at": "2026-11-18T11:37:53+00:00",
+  "run_at": "2026-11-18T11:49:39+00:00",
   "sources": {
    "Adyen": 25,
    "Bol": 4,
-   "Booking": 21,
+   "Booking": 20,
    "Channable": 1,
    "Miro": 0,
    "Mollie": 8,
@@ -46,7 +46,7 @@
   },
   "errors": {},
   "new": 2,
-  "closed": 3,
+  "closed": 4,
   "baseline": []
  }
 }
