@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Careers watch for Dutch ticketing companies.
+"""Careers watch for Dutch ticketing companies (and, with `python watch.py tech`, tech companies).
+
+Which companies are read is set by the "Watched companies" tab of the Job Search Pipeline sheet
+(see sheet_sources.py); the readers below are the custom ones for companies already set up.
 
 Reads every source, compares with the previous run (data/current.json) and writes:
   data/current.json  - every posting currently listed, per source
@@ -185,6 +188,12 @@ def main(watch_set="ticketing"):
     cur_path = DATA / "current.json"
     prev = json.loads(cur_path.read_text()) if cur_path.exists() else {}
     results, errors = {}, {}
+
+    # company list comes from the "Watched companies" tab; built-in list if the tab can't be read
+    import sheet_sources
+    api_sources, browsers, tab_errors = sheet_sources.apply_tab(watch_set, API_SOURCES, browser_sources())
+    errors.update(tab_errors)
+    API_SOURCES, browser_sources = api_sources, (lambda: browsers)
 
     for name, fn in API_SOURCES.items():
         try:

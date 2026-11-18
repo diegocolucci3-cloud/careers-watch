@@ -1,0 +1,52 @@
+name: test-watched-companies-tab
+
+# Dry run of both watches after a change to the tab reader. Saves only a summary
+# (data/test-run.json); the real data/current.json and new.json are left untouched,
+# so the morning runs still report every change.
+on:
+  push:
+    branches: [main]
+    paths: ["sheet_sources.py", "watch.py", ".github/workflows/test-tab.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Dry run both watches
+        run: |
+          python watch.py || true
+          python watch.py tech || true
+          python - <<'EOF'
+          import json, pathlib
+          out = {}
+          for name, p in [("ticketing", "data/new.json"), ("tech", "data/tech/new.json")]:
+              d = json.loads(pathlib.Path(p).read_text())
+              out[name] = {"run_at": d["run_at"], "sources": d["counts"], "errors": d["errors"],
+                           "new": len(d["new"]), "closed": len(d["closed"]), "baseline": d["baseline_sources"]}
+          pathlib.Path("/tmp/test-run.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
+          print(json.dumps(out, indent=1, ensure_ascii=False))
+          EOF
+      - name: Save summary only
+        run: |
+          git checkout -- data
+          git clean -fdq data
+          cp /tmp/test-run.json data/test-run.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/test-run.json
+          git commit -m "tab reader test $(date -u +%F)" || exit 0
+          git pull --rebase origin main
+          git push origin HEAD:main
