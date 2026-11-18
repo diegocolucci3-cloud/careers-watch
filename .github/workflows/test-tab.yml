@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:            # several quick pushes: keep only the latest test run
+  group: test-tab
+  cancel-in-progress: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
