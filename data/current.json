@@ -1,6 +1,6 @@
 {
  "Bleep": {
-  "checked_at": "2026-11-17T06:28:10+00:00",
+  "checked_at": "2026-11-18T06:31:05+00:00",
   "items": {
    "page-f7dba9f468c5": {
     "id": "page-f7dba9f468c5",
@@ -11,7 +11,7 @@
   }
  },
  "CM.com": {
-  "checked_at": "2026-11-17T06:28:10+00:00",
+  "checked_at": "2026-11-18T06:31:05+00:00",
   "items": {
    "2644189": {
     "id": "2644189",
@@ -36,12 +36,6 @@
     "location": "Breda, Noord-Brabant, Netherlands",
     "title": "Legal Counsel",
     "url": "https://jobs.cm.com/o/legal-counsel-2"
-   },
-   "2773466": {
-    "id": "2773466",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
-    "title": "Sales Internship",
-    "url": "https://jobs.cm.com/o/sales-internship-4"
    },
    "2773467": {
     "id": "2773467",
@@ -95,7 +89,7 @@
     "id": "2814336",
     "location": "Breda, Noord-Brabant, Netherlands",
     "title": "Head of Partner Enablement",
-    "url": "https://jobs.cm.com/o/head-of-partner-enablement-3"
+    "url": "https://jobs.cm.com/o/head-of-partner-enablement-cm"
    },
    "2814351": {
     "id": "2814351",
@@ -124,7 +118,7 @@
   }
  },
  "Celebratix": {
-  "checked_at": "2026-11-17T06:28:10+00:00",
+  "checked_at": "2026-11-18T06:31:05+00:00",
   "items": {
    "page-38f9c1cb8948": {
     "id": "page-38f9c1cb8948",
@@ -135,7 +129,7 @@
   }
  },
  "Eventim": {
-  "checked_at": "2026-11-17T06:28:10+00:00",
+  "checked_at": "2026-11-18T06:31:05+00:00",
   "items": {
    "https://careers.eventim.nl/o/client-success-executive-2211": {
     "id": "https://careers.eventim.nl/o/client-success-executive-2211",
@@ -155,16 +149,16 @@
     "title": "Open Application for our Talent Pool",
     "url": "https://careers.eventim.nl/o/open-application-for-our-talent-pool"
    },
-   "https://careers.eventim.nl/o/team-lead-accounting": {
-    "id": "https://careers.eventim.nl/o/team-lead-accounting",
+   "https://careers.eventim.nl/o/teamleider-boekhouding": {
+    "id": "https://careers.eventim.nl/o/teamleider-boekhouding",
     "location": "",
-    "title": "Team Lead Accounting",
-    "url": "https://careers.eventim.nl/o/team-lead-accounting"
+    "title": "Teamleider Boekhouding",
+    "url": "https://careers.eventim.nl/o/teamleider-boekhouding"
    }
   }
  },
  "Fastlane": {
-  "checked_at": "2026-11-17T06:28:10+00:00",
+  "checked_at": "2026-11-18T06:31:05+00:00",
   "items": {
    "https://www.fastlane.events/vacatures/Vacature-customer-success-manager-accountmanager": {
     "id": "https://www.fastlane.events/vacatures/Vacature-customer-success-manager-accountmanager",
@@ -199,19 +193,13 @@
   }
  },
  "Fever": {
-  "checked_at": "2026-11-17T06:28:10+00:00",
+  "checked_at": "2026-11-18T06:31:05+00:00",
   "items": {
    "4940985101": {
     "id": "4940985101",
     "location": "Amsterdam",
     "title": "Senior Market Strategy & Partnerships Manager",
     "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4940985101"
-   },
-   "4940986101": {
-    "id": "4940986101",
-    "location": "Amsterdam",
-    "title": "Senior Market Strategy & Partnerships Manager",
-    "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4940986101"
    },
    "4940989101": {
     "id": "4940989101",
@@ -276,7 +264,7 @@
   }
  },
  "Stager": {
-  "checked_at": "2026-11-17T06:28:10+00:00",
+  "checked_at": "2026-11-18T06:31:05+00:00",
   "items": {
    "operations-executive": {
     "id": "operations-executive",
@@ -293,7 +281,7 @@
   }
  },
  "Tixly": {
-  "checked_at": "2026-11-17T06:28:10+00:00",
+  "checked_at": "2026-11-18T06:31:05+00:00",
   "items": {
    "list-d13bb18cf207": {
     "id": "list-d13bb18cf207",
@@ -305,7 +293,7 @@
   }
  },
  "WeTicket": {
-  "checked_at": "2026-11-17T06:28:10+00:00",
+  "checked_at": "2026-11-18T06:31:05+00:00",
   "items": {
    "page-cb9a9216ef2a": {
     "id": "page-cb9a9216ef2a",
@@ -316,7 +304,7 @@
   }
  },
  "Weeztix": {
-  "checked_at": "2026-11-17T06:28:10+00:00",
+  "checked_at": "2026-11-18T06:31:05+00:00",
   "items": {
    "2220560": {
     "id": "2220560",
@@ -341,12 +329,6 @@
     "location": "Amsterdam, Noord-Holland, Nederland",
     "title": "Sales Account Executive | Business & Sports",
     "url": "https://weeztix.recruitee.com/o/sales-account-executive-business-sports"
-   },
-   "2722415": {
-    "id": "2722415",
-    "location": "Amsterdam, Noord-Holland, Nederland",
-    "title": "Marketing Manager Netherlands & Weeztix",
-    "url": "https://weeztix.recruitee.com/o/marketing-manager-netherlands-weeztix"
    },
    "2745984": {
     "id": "2745984",
