@@ -1,0 +1,52 @@
+{
+ "ticketing": {
+  "run_at": "2026-11-18T11:31:14+00:00",
+  "sources": {
+   "CM.com": 17,
+   "Fever": 11,
+   "Stager": 2,
+   "Weeztix": 6,
+   "Bleep": 1,
+   "Celebratix": 1,
+   "Eventim": 4,
+   "Fastlane": 5,
+   "Tixly": 1,
+   "WeTicket": 1
+  },
+  "errors": {},
+  "new": 1,
+  "closed": 1,
+  "baseline": []
+ },
+ "tech": {
+  "run_at": "2026-11-18T11:37:53+00:00",
+  "sources": {
+   "Adyen": 25,
+   "Bol": 4,
+   "Booking": 21,
+   "Channable": 1,
+   "Miro": 0,
+   "Mollie": 8,
+   "Netflix": 0,
+   "Tebi": 1,
+   "Tiqets": 2,
+   "Backbase": 5,
+   "Bird": 1,
+   "Bolt": 1,
+   "bunq": 4,
+   "Catawiki": 2,
+   "Just Eat Takeaway": 26,
+   "Lightspeed": 1,
+   "Otrium": 1,
+   "Picnic": 1,
+   "Sendcloud": 0,
+   "Swapfiets": 0,
+   "Vinted": 2,
+   "Zenchef": 1
+  },
+  "errors": {},
+  "new": 2,
+  "closed": 3,
+  "baseline": []
+ }
+}
