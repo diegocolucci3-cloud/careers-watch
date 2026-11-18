@@ -235,7 +235,10 @@ def main(watch_set="ticketing"):
             items = {k: v for k, v in items.items() if k.startswith(("page-", "list-")) or keep_title(v["title"])}
         current[name] = {"items": items, "checked_at": now}
         if name not in prev:
-            baseline.append(name)        # first read: record, don't flood "new"
+            # first read of a company (e.g. just added in the tab): report its current openings
+            # once as new, flagged first_read, so they get screened too
+            baseline.append(name)
+            new += [dict(v, company=name, first_read=True) for v in items.values()]
             continue
         new += [dict(v, company=name) for k, v in items.items() if k not in old]
         closed += [dict(v, company=name) for k, v in old.items() if k not in items]
