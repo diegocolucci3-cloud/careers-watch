@@ -1,56 +1,35 @@
 {
- "run_at": "2026-11-18T06:31:05+00:00",
+ "run_at": "2026-11-19T06:26:26+00:00",
  "new": [
   {
-   "id": "https://careers.eventim.nl/o/teamleider-boekhouding",
-   "title": "Teamleider Boekhouding",
-   "url": "https://careers.eventim.nl/o/teamleider-boekhouding",
+   "id": "https://careers.eventim.nl/o/team-lead-accounting",
+   "title": "Team Lead Accounting",
+   "url": "https://careers.eventim.nl/o/team-lead-accounting",
    "location": "",
    "company": "Eventim"
   }
  ],
  "closed": [
   {
-   "id": "2722415",
-   "location": "Amsterdam, Noord-Holland, Nederland",
-   "title": "Marketing Manager Netherlands & Weeztix",
-   "url": "https://weeztix.recruitee.com/o/marketing-manager-netherlands-weeztix",
-   "company": "Weeztix"
-  },
-  {
-   "id": "2773466",
-   "location": "Amsterdam, Noord-Holland, Netherlands",
-   "title": "Sales Internship",
-   "url": "https://jobs.cm.com/o/sales-internship-4",
-   "company": "CM.com"
-  },
-  {
-   "id": "4940986101",
-   "location": "Amsterdam",
-   "title": "Senior Market Strategy & Partnerships Manager",
-   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4940986101",
-   "company": "Fever"
-  },
-  {
-   "id": "https://careers.eventim.nl/o/team-lead-accounting",
+   "id": "https://careers.eventim.nl/o/teamleider-boekhouding",
    "location": "",
-   "title": "Team Lead Accounting",
-   "url": "https://careers.eventim.nl/o/team-lead-accounting",
+   "title": "Teamleider Boekhouding",
+   "url": "https://careers.eventim.nl/o/teamleider-boekhouding",
    "company": "Eventim"
   }
  ],
  "errors": {},
  "baseline_sources": [],
  "counts": {
-  "Weeztix": 6,
   "CM.com": 17,
   "Fever": 11,
   "Stager": 2,
-  "Celebratix": 1,
-  "WeTicket": 1,
+  "Weeztix": 6,
   "Bleep": 1,
-  "Fastlane": 5,
+  "Celebratix": 1,
   "Eventim": 4,
-  "Tixly": 1
+  "Fastlane": 5,
+  "Tixly": 1,
+  "WeTicket": 1
  }
 }
