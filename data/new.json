@@ -1,27 +1,90 @@
 {
- "run_at": "2026-11-19T06:26:26+00:00",
+ "run_at": "2026-11-20T06:29:24+00:00",
  "new": [
   {
-   "id": "https://careers.eventim.nl/o/team-lead-accounting",
-   "title": "Team Lead Accounting",
-   "url": "https://careers.eventim.nl/o/team-lead-accounting",
-   "location": "",
-   "company": "Eventim"
+   "id": "https://www.fastlane.events/en/vacatures/Vacature-customer-success-manager-accountmanager",
+   "title": "Customer Success Manager / Accountmanager",
+   "url": "https://www.fastlane.events/en/vacatures/Vacature-customer-success-manager-accountmanager",
+   "location": "Jij bent het gezicht én het brein achter de relatie met onze key-accounts. Adviseer festivalorganisatoren over ticketing, cashless en apps en sta met je voeten in de modder als de productie erom vraagt. | Production | Regio Amsterdam / Hybride / On-site",
+   "company": "Fastlane"
+  },
+  {
+   "id": "https://www.fastlane.events/en/vacatures/customer-success-manager-ticketing-marketing-automation",
+   "title": "Customer Success Manager Ticketing & Marketing Automation",
+   "url": "https://www.fastlane.events/en/vacatures/customer-success-manager-ticketing-marketing-automation",
+   "location": "Help festivalorganisatoren hun events uit te verkopen met slimme ticketing en marketing automation. Je bent het vaste aanspreekpunt voor je klanten en bouwt direct mee aan ons product. | Production | Regio Haarlem / Amsterdam / Hybride / On-site",
+   "company": "Fastlane"
+  },
+  {
+   "id": "https://www.fastlane.events/en/vacatures/freelance-on-site-site-manager",
+   "title": "Freelance On-site Site Manager",
+   "url": "https://www.fastlane.events/en/vacatures/freelance-on-site-site-manager",
+   "location": "Tijdens showdagen ben jij het visitekaartje van Fastlane. Als freelance Site Manager ben je technisch en operationeel eindverantwoordelijk voor onze kassasystemen op de mooiste festivals van Nederland. | Production | Haarlem",
+   "company": "Fastlane"
+  },
+  {
+   "id": "https://www.fastlane.events/en/vacatures/stagiaire-productie-evenementen",
+   "title": "Productie stagiair(e)",
+   "url": "https://www.fastlane.events/en/vacatures/stagiaire-productie-evenementen",
+   "location": "Sta jij liever backstage dan in de collegebanken? Als productiestagiair draai je mee in de productie en het projectmanagement van festivals zoals Dekmantel, Bevrijdingspop, Landjuweel en Bosburcht. Vanaf 16 februari 2026. | Production | Haarlem",
+   "company": "Fastlane"
+  },
+  {
+   "id": "https://www.fastlane.events/en/vacatures/stagiaire-marketing-communicatie",
+   "title": "Stagiair(e) Marketing & Communicatie",
+   "url": "https://www.fastlane.events/en/vacatures/stagiaire-marketing-communicatie",
+   "location": "Geen koffie halen. Bij Fastlane draai je mee in een snelgroeiend tech-bedrijf dat de backbone vormt van de grootste festivals van Nederland. Stage van september 2026 – februari 2027. | Marketing | Haarlem",
+   "company": "Fastlane"
   }
  ],
  "closed": [
   {
-   "id": "https://careers.eventim.nl/o/teamleider-boekhouding",
-   "location": "",
-   "title": "Teamleider Boekhouding",
-   "url": "https://careers.eventim.nl/o/teamleider-boekhouding",
-   "company": "Eventim"
+   "id": "2644189",
+   "location": "Mechelen, Vlaams Gewest, Belgium",
+   "title": "Account Manager BE",
+   "url": "https://jobs.cm.com/o/account-manager-be",
+   "company": "CM.com"
+  },
+  {
+   "id": "https://www.fastlane.events/vacatures/Vacature-customer-success-manager-accountmanager",
+   "location": "Jij bent het gezicht én het brein achter de relatie met onze key-accounts. Adviseer festivalorganisatoren over ticketing, cashless en apps en sta met je voeten in de modder als de productie erom vraagt. | Productie | Regio Amsterdam / Hybride / On-site",
+   "title": "Customer Success Manager / Accountmanager",
+   "url": "https://www.fastlane.events/vacatures/Vacature-customer-success-manager-accountmanager",
+   "company": "Fastlane"
+  },
+  {
+   "id": "https://www.fastlane.events/vacatures/customer-success-manager-ticketing-marketing-automation",
+   "location": "Help festivalorganisatoren hun events uit te verkopen met slimme ticketing en marketing automation. Je bent het vaste aanspreekpunt voor je klanten en bouwt direct mee aan ons product. | Productie | Regio Haarlem / Amsterdam / Hybride / On-site",
+   "title": "Customer Success Manager Ticketing & Marketing Automation",
+   "url": "https://www.fastlane.events/vacatures/customer-success-manager-ticketing-marketing-automation",
+   "company": "Fastlane"
+  },
+  {
+   "id": "https://www.fastlane.events/vacatures/freelance-on-site-site-manager",
+   "location": "Tijdens showdagen ben jij het visitekaartje van Fastlane. Als freelance Site Manager ben je technisch en operationeel eindverantwoordelijk voor onze kassasystemen op de mooiste festivals van Nederland. | Productie | Haarlem",
+   "title": "Freelance On-site Site Manager",
+   "url": "https://www.fastlane.events/vacatures/freelance-on-site-site-manager",
+   "company": "Fastlane"
+  },
+  {
+   "id": "https://www.fastlane.events/vacatures/stagiaire-marketing-communicatie",
+   "location": "Geen koffie halen. Bij Fastlane draai je mee in een snelgroeiend tech-bedrijf dat de backbone vormt van de grootste festivals van Nederland. Stage van september 2026 – februari 2027. | Marketing | Haarlem",
+   "title": "Stagiair(e) Marketing & Communicatie",
+   "url": "https://www.fastlane.events/vacatures/stagiaire-marketing-communicatie",
+   "company": "Fastlane"
+  },
+  {
+   "id": "https://www.fastlane.events/vacatures/stagiaire-productie-evenementen",
+   "location": "Sta jij liever backstage dan in de collegebanken? Als productiestagiair draai je mee in de productie en het projectmanagement van festivals zoals Dekmantel, Bevrijdingspop, Landjuweel en Bosburcht. Vanaf 16 februari 2026. | Productie | Haarlem",
+   "title": "Productie stagiair(e)",
+   "url": "https://www.fastlane.events/vacatures/stagiaire-productie-evenementen",
+   "company": "Fastlane"
   }
  ],
  "errors": {},
  "baseline_sources": [],
  "counts": {
-  "CM.com": 17,
+  "CM.com": 16,
   "Fever": 11,
   "Stager": 2,
   "Weeztix": 6,
