@@ -1,224 +1,245 @@
 {
- "run_at": "2026-11-18T06:56:13+00:00",
+ "run_at": "2026-11-20T06:53:35+00:00",
  "new": [
   {
-   "id": "8300702",
-   "title": "Senior Commercial Finance Business Partner",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8300702",
-   "location": "Amsterdam",
-   "company": "Adyen"
+   "id": "8785155002",
+   "title": "Data Analist Partner Sales & Marketing Excellence",
+   "url": "https://banen.bol.com/vacature/8785155002/?gh_jid=8785155002",
+   "location": "Utrecht",
+   "company": "Bol"
   },
   {
-   "id": "8352766",
-   "title": "Senior Partner Solution Engineer - Device Assurance",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8352766",
-   "location": "Amsterdam",
-   "company": "Adyen"
+   "id": "8885066002",
+   "title": "Process Improvement Specialist Supplier Operations",
+   "url": "https://banen.bol.com/vacature/8885066002/?gh_jid=8885066002",
+   "location": "Utrecht",
+   "company": "Bol"
   },
   {
-   "id": "e5691134-7a8e-42df-aa66-226f9f687be2",
-   "title": "Associate Partner Growth Manager - NL",
-   "url": "https://jobs.ashbyhq.com/mollie/e5691134-7a8e-42df-aa66-226f9f687be2",
-   "location": "Amsterdam",
+   "id": "30573",
+   "title": "Customer Success Manager - Spanish speaking",
+   "url": "https://jobs.booking.com/booking/jobs/30573",
+   "location": "Amsterdam, Netherlands",
+   "company": "Booking"
+  },
+  {
+   "id": "30743",
+   "title": "Senior Process Analyst",
+   "url": "https://jobs.booking.com/booking/jobs/30743",
+   "location": "Amsterdam, Netherlands",
+   "company": "Booking"
+  },
+  {
+   "id": "30760",
+   "title": "Product Fellow - Product Strategy, Portfolio Management & Go-to-Market",
+   "url": "https://jobs.booking.com/booking/jobs/30760",
+   "location": "Amsterdam, Netherlands",
+   "company": "Booking"
+  },
+  {
+   "id": "30678",
+   "title": "Product Marketing Manager, Flights",
+   "url": "https://jobs.booking.com/booking/jobs/30678",
+   "location": "Amsterdam, Netherlands",
+   "company": "Booking"
+  },
+  {
+   "id": "15979103-234f-4017-874e-a4b5c141f063",
+   "title": "Merchant Risk Analyst",
+   "url": "https://jobs.ashbyhq.com/mollie/15979103-234f-4017-874e-a4b5c141f063",
+   "location": "Amsterdam / Maastricht (remote)",
    "company": "Mollie"
   },
   {
-   "id": "30322",
-   "title": "Technical Program Manager - ServiceNow",
-   "url": "https://jobs.booking.com/booking/jobs/30322",
-   "location": "Amsterdam, Netherlands",
-   "company": "Booking"
+   "id": "790319438107",
+   "title": "Specialist, Marketing Partnerships Creative Production, EMEA",
+   "url": "https://explore.jobs.netflix.net/careers/job/790319438107",
+   "location": "Amsterdam,Netherlands",
+   "company": "Netflix"
   },
   {
-   "id": "30744",
-   "title": "Junior Financial Analyst",
-   "url": "https://jobs.booking.com/booking/jobs/30744",
-   "location": "Amsterdam, Netherlands",
-   "company": "Booking"
+   "id": "790319438097",
+   "title": "Manager, Marketing Partnerships Creative Production, EMEA",
+   "url": "https://explore.jobs.netflix.net/careers/job/790319438097",
+   "location": "Amsterdam,Netherlands",
+   "company": "Netflix"
   },
   {
-   "id": "30564",
-   "title": "Product Manager- Messaging Content Builder",
-   "url": "https://jobs.booking.com/booking/jobs/30564",
-   "location": "Amsterdam, Netherlands",
-   "company": "Booking"
-  },
-  {
-   "id": "page-4588f88445eb",
-   "title": "Careers page content changed - check it",
-   "url": "https://www.zenchef.com/join-us",
-   "location": "",
-   "company": "Zenchef"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_053283/Manager-Ventures-Partnerships",
-   "title": "Manager Ventures & Partnerships",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_053283/Manager-Ventures-Partnerships",
-   "location": "",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_053104/Senior-Data-Analyst-Fraud-Analytics",
-   "title": "Senior Data Analyst - Fraud Analytics",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_053104/Senior-Data-Analyst-Fraud-Analytics",
-   "location": "",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_054068/Partner-Courier-Benefits-Manager",
-   "title": "Partner & Courier Benefits Manager",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_054068/Partner-Courier-Benefits-Manager",
-   "location": "",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_052032/Lead-Security-Business-Partner",
-   "title": "Lead Security Business Partner",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_052032/Lead-Security-Business-Partner",
-   "location": "",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_054217/Senior-Delivery-Lead-Commerce-Tech-Growth",
-   "title": "Senior Delivery Lead- Commerce Tech Growth",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_054217/Senior-Delivery-Lead-Commerce-Tech-Growth",
-   "location": "",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://www.backbase.com/careers/jobs/8392556-ta-business-partner-services",
-   "title": "8392556 ta business partner services",
-   "url": "https://www.backbase.com/careers/jobs/8392556-ta-business-partner-services",
+   "id": "https://www.backbase.com/careers/jobs/8330193-lead-principal-business-analyst",
+   "title": "8330193 lead principal business analyst",
+   "url": "https://www.backbase.com/careers/jobs/8330193-lead-principal-business-analyst",
    "location": "",
    "company": "Backbase"
   },
   {
-   "id": "list-e094c9889887",
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_053692/Country-Human-Resources-Business-Partner-1-Year-Contract",
+   "title": "Country Human Resources Business Partner (1 Year Contract)",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_053692/Country-Human-Resources-Business-Partner-1-Year-Contract",
+   "location": "",
+   "company": "Just Eat Takeaway"
+  },
+  {
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_053828/Junior-Product-Analyst",
+   "title": "Junior Product Analyst",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_053828/Junior-Product-Analyst",
+   "location": "",
+   "company": "Just Eat Takeaway"
+  },
+  {
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_053829/Product-Analyst",
+   "title": "Product Analyst",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_053829/Product-Analyst",
+   "location": "",
+   "company": "Just Eat Takeaway"
+  },
+  {
+   "id": "list-76443f88f9c2",
    "title": "Job list changed (Total: 12 openings) - read snippet",
    "url": "https://otrium.careers.hibob.com/jobs",
    "location": "",
-   "snippet": "Total: 12 Sort by E-commerce Intern Hybrid · Netherlands Posted on Oct 28, 2026 CX Intern Hybrid · Netherlands Posted on Oct 28, 2026 Data & Analytics Intern Hybrid · Netherlands Posted on Nov 5, 2026 Engineering Working Student Hybrid · Netherlands Posted on Nov 6, 2026 Financial Accounting Intern Hybrid · Netherlands Posted on Oct 29, 2026 Inbound Logistics Intern Hybrid · Netherlands Posted on Oct 29, 2026 Team Lead - Enterprise South Remote · EOR - all Posted on Nov 6, 2026 E-commerce Intern Hybrid · Netherlands Share job Apply Department Branding Employment type Temporary contract Job description Our purpose Every year, billions of clothing items are produced but never sold. Much of this unworn fashion ends up in landfills – a massive waste of creativity, craftsmanship, resources, and investment. We’re here to change that. As a purpose-led company, we use technology to help fashion brands give every item a chance to be worn. And we’re proud to be a certified B Corp – recognised for meeting high standards of social and environmental impact, transparency, and accountability. How we work We’re a purpose-driven scale-up, based in Amsterdam and active across Europe, with a diverse and international team. Our mission is simple: sell unsold inventory. Otrium values a healthy work-life balance. We have adopted a flexible hybrid way of working, encouraging our team members to come to our open, spacious, plant-filled Amsterdam HQ at the waterside of Houthavens at least twice a wee",
+   "snippet": "Total: 12 Sort by International E-commerce Trading Manager Hybrid · Netherlands Posted on Nov 18, 2026 E-commerce Intern Hybrid · Netherlands Posted on Oct 28, 2026 CX Intern Hybrid · Netherlands Posted on Oct 28, 2026 Data & Analytics Intern Hybrid · Netherlands Posted on Nov 5, 2026 Engineering Working Student Hybrid · Netherlands Posted on Nov 6, 2026 Financial Accounting Intern Hybrid · Netherlands Posted on Oct 29, 2026 Inbound Logistics Intern Hybrid · Netherlands Posted on Oct 29, 2026 International E-commerce Trading Manager Hybrid · Netherlands Share job Apply Department Branding Employment type Temporary contract Job description Our purpose Every year, billions of clothing items are produced but never sold. Much of this unworn fashion ends up in landfills – a massive waste of creativity, craftsmanship, resources, and investment. We're here to change that. As a purpose-led company, we use technology to help fashion brands give every item a chance to be worn. And we're proud to be a certified B Corp – recognised for meeting high standards of social and environmental impact, transparency, and accountability. How we work We're a purpose-driven scale-up, based in Amsterdam and active across Europe, with a diverse and international team. Our mission is simple: sell unsold inventory. Otrium values a healthy work-life balance. We have adopted a flexible hybrid way of working, encouraging our team members to come to our open, spacious, plant-filled Amsterdam HQ at the waters",
    "company": "Otrium"
+  },
+  {
+   "id": "https://careers.vinted.com/jobs/j/5034631101",
+   "title": "Director of Product, Order",
+   "url": "https://careers.vinted.com/jobs/j/5034631101",
+   "location": "",
+   "company": "Vinted"
   }
  ],
  "closed": [
   {
-   "id": "8273989",
-   "location": "Amsterdam; London",
-   "title": "Senior Payments Partnerships Manager - Visa",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8273989",
+   "id": "8158622",
+   "location": "Amsterdam",
+   "title": "Senior/Lead, HR Business Partner, Operations",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8158622",
    "company": "Adyen"
   },
   {
-   "id": "8929784002",
-   "location": "Utrecht",
-   "title": "Strategic HR Business Partner",
-   "url": "https://banen.bol.com/vacature/8929784002/?gh_jid=8929784002",
-   "company": "Bol"
-  },
-  {
-   "id": "1621fe45-3c8e-4fa6-a5c9-c33b83fbacf4",
+   "id": "8300702",
    "location": "Amsterdam",
-   "title": "FP&A Analyst - People",
-   "url": "https://jobs.ashbyhq.com/mollie/1621fe45-3c8e-4fa6-a5c9-c33b83fbacf4",
-   "company": "Mollie"
+   "title": "Senior Commercial Finance Business Partner",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8300702",
+   "company": "Adyen"
   },
   {
-   "id": "f7d6cb62-a540-4cd7-b916-624e77740bba",
-   "location": "Amsterdam",
-   "title": "Workforce & Business Analyst",
-   "url": "https://jobs.ashbyhq.com/mollie/f7d6cb62-a540-4cd7-b916-624e77740bba",
-   "company": "Mollie"
-  },
-  {
-   "id": "30714",
+   "id": "30481",
    "location": "Amsterdam, Netherlands",
-   "title": "Principal Delivery Enablement",
-   "url": "https://jobs.booking.com/booking/jobs/30714",
+   "title": "UX Writer II - Partnerships",
+   "url": "https://jobs.booking.com/booking/jobs/30481",
    "company": "Booking"
   },
   {
-   "id": "30719",
+   "id": "30564",
    "location": "Amsterdam, Netherlands",
-   "title": "Principal Delivery Enablement - Strategy & Transformation",
-   "url": "https://jobs.booking.com/booking/jobs/30719",
+   "title": "Product Manager- Messaging Content Builder",
+   "url": "https://jobs.booking.com/booking/jobs/30564",
    "company": "Booking"
   },
   {
-   "id": "30734",
+   "id": "30736",
    "location": "Amsterdam, Netherlands",
-   "title": "Senior Manager Delivery Enablement - Agile",
-   "url": "https://jobs.booking.com/booking/jobs/30734",
+   "title": "Senior Manager Delivery Enablement - Jira & Data",
+   "url": "https://jobs.booking.com/booking/jobs/30736",
    "company": "Booking"
   },
   {
-   "id": "page-e4ef6d01d65a",
-   "location": "",
-   "title": "Careers page content changed - check it",
-   "url": "https://www.zenchef.com/join-us",
-   "company": "Zenchef"
+   "id": "30744",
+   "location": "Amsterdam, Netherlands",
+   "title": "Junior Financial Analyst",
+   "url": "https://jobs.booking.com/booking/jobs/30744",
+   "company": "Booking"
   },
   {
-   "id": "https://careers.vinted.com/jobs/j/4429199101",
-   "location": "",
-   "title": "Product Manager, Vinted Go",
-   "url": "https://careers.vinted.com/jobs/j/4429199101",
-   "company": "Vinted"
+   "id": "2751915",
+   "location": "Utrecht, Utrecht, Netherlands",
+   "title": "Customer Success Manager Benelux - Dutch speaking",
+   "url": "https://jobs.channable.com/o/customer-success-manager-benelux-dutch-speaking-3",
+   "company": "Channable"
   },
   {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_052239/Operational-Governance-Lead",
+   "id": "https://www.backbase.com/careers/jobs/8229897-customer-success-director",
    "location": "",
-   "title": "Operational Governance Lead",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_052239/Operational-Governance-Lead",
+   "title": "8229897 customer success director",
+   "url": "https://www.backbase.com/careers/jobs/8229897-customer-success-director",
+   "company": "Backbase"
+  },
+  {
+   "id": "https://www.backbase.com/careers/jobs/8261066-senior-project-manager",
+   "location": "",
+   "title": "8261066 senior project manager",
+   "url": "https://www.backbase.com/careers/jobs/8261066-senior-project-manager",
+   "company": "Backbase"
+  },
+  {
+   "id": "https://bird.com/careers/associate-technical-account-manager",
+   "location": "Full-time / Remote, APAC",
+   "title": "Associate Technical Account Manager",
+   "url": "https://bird.com/careers/associate-technical-account-manager",
+   "company": "Bird"
+  },
+  {
+   "id": "https://careers.bunq.com/positions/cards-experience-guide-2",
+   "location": "",
+   "title": "Cards Experience GuideSupport & OperationsAmsterdamcards-experience-guide-2",
+   "url": "https://careers.bunq.com/positions/cards-experience-guide-2",
+   "company": "bunq"
+  },
+  {
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_053283/Manager-Ventures-Partnerships",
+   "location": "",
+   "title": "Manager Ventures & Partnerships",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_053283/Manager-Ventures-Partnerships",
    "company": "Just Eat Takeaway"
   },
   {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_052278/Regional-Delivery-Manager",
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_053861/Senior-Technical-Program-Manager",
    "location": "",
-   "title": "Regional Delivery Manager",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_052278/Regional-Delivery-Manager",
+   "title": "Senior Technical Program Manager",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_053861/Senior-Technical-Program-Manager",
    "company": "Just Eat Takeaway"
   },
   {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_054025/Customer-Operations-Backoffice-Specialist-Enschede-32-uur-per-week",
+   "id": "list-e094c9889887",
    "location": "",
-   "title": "Customer Operations & Backoffice Specialist – Enschede(32 uur per week)",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_054025/Customer-Operations-Backoffice-Specialist-Enschede-32-uur-per-week",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "list-0feb2edbf1f8",
-   "location": "",
-   "snippet": "Total: 11 Sort by E-commerce Intern Hybrid · Netherlands Posted on Oct 28, 2026 CX Intern Hybrid · Netherlands Posted on Oct 28, 2026 Data & Analytics Intern Hybrid · Netherlands Posted on Nov 5, 2026 Engineering Working Student Hybrid · Netherlands Posted on Nov 6, 2026 Financial Accounting Intern Hybrid · Netherlands Posted on Oct 29, 2026 Inbound Logistics Intern Hybrid · Netherlands Posted on Oct 29, 2026 Team Lead - Enterprise South Remote · EOR - all Posted on Nov 6, 2026 E-commerce Intern Hybrid · Netherlands Share job Apply Department Branding Employment type Temporary contract Job description Our purpose Every year, billions of clothing items are produced but never sold. Much of this unworn fashion ends up in landfills – a massive waste of creativity, craftsmanship, resources, and investment. We’re here to change that. As a purpose-led company, we use technology to help fashion brands give every item a chance to be worn. And we’re proud to be a certified B Corp – recognised for meeting high standards of social and environmental impact, transparency, and accountability. How we work We’re a purpose-driven scale-up, based in Amsterdam and active across Europe, with a diverse and international team. Our mission is simple: sell unsold inventory. Otrium values a healthy work-life balance. We have adopted a flexible hybrid way of working, encouraging our team members to come to our open, spacious, plant-filled Amsterdam HQ at the waterside of Houthavens at least twice a wee",
-   "title": "Job list changed (Total: 11 openings) - read snippet",
+   "snippet": "Total: 12 Sort by E-commerce Intern Hybrid · Netherlands Posted on Oct 28, 2026 CX Intern Hybrid · Netherlands Posted on Oct 28, 2026 Data & Analytics Intern Hybrid · Netherlands Posted on Nov 5, 2026 Engineering Working Student Hybrid · Netherlands Posted on Nov 6, 2026 Financial Accounting Intern Hybrid · Netherlands Posted on Oct 29, 2026 Inbound Logistics Intern Hybrid · Netherlands Posted on Oct 29, 2026 Team Lead - Enterprise South Remote · EOR - all Posted on Nov 6, 2026 E-commerce Intern Hybrid · Netherlands Share job Apply Department Branding Employment type Temporary contract Job description Our purpose Every year, billions of clothing items are produced but never sold. Much of this unworn fashion ends up in landfills – a massive waste of creativity, craftsmanship, resources, and investment. We’re here to change that. As a purpose-led company, we use technology to help fashion brands give every item a chance to be worn. And we’re proud to be a certified B Corp – recognised for meeting high standards of social and environmental impact, transparency, and accountability. How we work We’re a purpose-driven scale-up, based in Amsterdam and active across Europe, with a diverse and international team. Our mission is simple: sell unsold inventory. Otrium values a healthy work-life balance. We have adopted a flexible hybrid way of working, encouraging our team members to come to our open, spacious, plant-filled Amsterdam HQ at the waterside of Houthavens at least twice a wee",
+   "title": "Job list changed (Total: 12 openings) - read snippet",
    "url": "https://otrium.careers.hibob.com/jobs",
    "company": "Otrium"
+  },
+  {
+   "id": "https://careers.vinted.com/jobs/j/4980536101",
+   "location": "",
+   "title": "Regional Delivery Manager (Dutch fluent)",
+   "url": "https://careers.vinted.com/jobs/j/4980536101",
+   "company": "Vinted"
   }
  ],
  "errors": {},
  "baseline_sources": [],
  "counts": {
-  "Adyen": 25,
-  "Bol": 4,
-  "Miro": 0,
-  "Mollie": 7,
-  "Tebi": 1,
-  "Channable": 2,
+  "Adyen": 23,
+  "Bol": 6,
   "Booking": 21,
-  "Netflix": 0,
+  "Channable": 1,
+  "Miro": 0,
+  "Mollie": 8,
+  "Netflix": 2,
+  "Tebi": 1,
   "Tiqets": 2,
-  "Zenchef": 1,
+  "Backbase": 5,
+  "Bird": 0,
   "Bolt": 1,
-  "Vinted": 2,
+  "bunq": 3,
   "Catawiki": 2,
-  "Just Eat Takeaway": 26,
-  "Backbase": 6,
+  "Just Eat Takeaway": 27,
   "Lightspeed": 1,
-  "Bird": 1,
-  "bunq": 4,
-  "Picnic": 1,
   "Otrium": 1,
+  "Picnic": 1,
+  "Sendcloud": 0,
   "Swapfiets": 0,
-  "Sendcloud": 0
+  "Vinted": 2,
+  "Zenchef": 1
  }
 }
