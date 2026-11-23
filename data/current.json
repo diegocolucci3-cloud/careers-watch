@@ -1,6 +1,6 @@
 {
  "Bleep": {
-  "checked_at": "2026-11-20T06:29:24+00:00",
+  "checked_at": "2026-11-23T06:36:57+00:00",
   "items": {
    "page-f7dba9f468c5": {
     "id": "page-f7dba9f468c5",
@@ -11,7 +11,7 @@
   }
  },
  "CM.com": {
-  "checked_at": "2026-11-20T06:29:24+00:00",
+  "checked_at": "2026-11-23T06:36:57+00:00",
   "items": {
    "2697688": {
     "id": "2697688",
@@ -103,6 +103,18 @@
     "title": "Marketing Manager US",
     "url": "https://jobs.cm.com/o/marketing-manager-us"
    },
+   "2826533": {
+    "id": "2826533",
+    "location": "Copenhagen, Hovedstaden, Denmark",
+    "title": "Client Executive - SaaS & Solutions | Nordics & Baltics",
+    "url": "https://jobs.cm.com/o/client-executive-saas-solutions-nordics-baltics"
+   },
+   "2834293": {
+    "id": "2834293",
+    "location": "Cape Town, Western Cape, South Africa",
+    "title": "Marketing Manager SA",
+    "url": "https://jobs.cm.com/o/marketing-manager-sa"
+   },
    "748554": {
     "id": "748554",
     "location": "Amsterdam, Noord-Holland, Netherlands",
@@ -112,7 +124,7 @@
   }
  },
  "Celebratix": {
-  "checked_at": "2026-11-20T06:29:24+00:00",
+  "checked_at": "2026-11-23T06:36:57+00:00",
   "items": {
    "page-38f9c1cb8948": {
     "id": "page-38f9c1cb8948",
@@ -123,36 +135,36 @@
   }
  },
  "Eventim": {
-  "checked_at": "2026-11-20T06:29:24+00:00",
+  "checked_at": "2026-11-23T06:36:57+00:00",
   "items": {
    "https://careers.eventim.nl/o/client-success-executive-2211": {
     "id": "https://careers.eventim.nl/o/client-success-executive-2211",
     "location": "",
-    "title": "Client Success Executive",
+    "title": "CLIENT SUCCESS EXECUTIVE",
     "url": "https://careers.eventim.nl/o/client-success-executive-2211"
    },
    "https://careers.eventim.nl/o/meewerkstage-human-resources-recruitment": {
     "id": "https://careers.eventim.nl/o/meewerkstage-human-resources-recruitment",
     "location": "",
-    "title": "Meewerkstage Human Resources & Recruitment",
+    "title": "MEEWERKSTAGE HUMAN RESOURCES & RECRUITMENT",
     "url": "https://careers.eventim.nl/o/meewerkstage-human-resources-recruitment"
    },
    "https://careers.eventim.nl/o/open-application-for-our-talent-pool": {
     "id": "https://careers.eventim.nl/o/open-application-for-our-talent-pool",
     "location": "",
-    "title": "Open Application for our Talent Pool",
+    "title": "OPEN APPLICATION FOR OUR TALENT POOL",
     "url": "https://careers.eventim.nl/o/open-application-for-our-talent-pool"
    },
    "https://careers.eventim.nl/o/team-lead-accounting": {
     "id": "https://careers.eventim.nl/o/team-lead-accounting",
     "location": "",
-    "title": "Team Lead Accounting",
+    "title": "TEAM LEAD ACCOUNTING",
     "url": "https://careers.eventim.nl/o/team-lead-accounting"
    }
   }
  },
  "Fastlane": {
-  "checked_at": "2026-11-20T06:29:24+00:00",
+  "checked_at": "2026-11-23T06:36:57+00:00",
   "items": {
    "https://www.fastlane.events/en/vacatures/Vacature-customer-success-manager-accountmanager": {
     "id": "https://www.fastlane.events/en/vacatures/Vacature-customer-success-manager-accountmanager",
@@ -187,7 +199,7 @@
   }
  },
  "Fever": {
-  "checked_at": "2026-11-20T06:29:24+00:00",
+  "checked_at": "2026-11-23T06:36:57+00:00",
   "items": {
    "4940985101": {
     "id": "4940985101",
@@ -258,7 +270,7 @@
   }
  },
  "Stager": {
-  "checked_at": "2026-11-20T06:29:24+00:00",
+  "checked_at": "2026-11-23T06:36:57+00:00",
   "items": {
    "operations-executive": {
     "id": "operations-executive",
@@ -275,7 +287,7 @@
   }
  },
  "Tixly": {
-  "checked_at": "2026-11-20T06:29:24+00:00",
+  "checked_at": "2026-11-23T06:36:57+00:00",
   "items": {
    "list-d13bb18cf207": {
     "id": "list-d13bb18cf207",
@@ -287,7 +299,7 @@
   }
  },
  "WeTicket": {
-  "checked_at": "2026-11-20T06:29:24+00:00",
+  "checked_at": "2026-11-23T06:36:57+00:00",
   "items": {
    "page-cb9a9216ef2a": {
     "id": "page-cb9a9216ef2a",
@@ -298,7 +310,7 @@
   }
  },
  "Weeztix": {
-  "checked_at": "2026-11-20T06:29:24+00:00",
+  "checked_at": "2026-11-23T06:36:57+00:00",
   "items": {
    "2220560": {
     "id": "2220560",
