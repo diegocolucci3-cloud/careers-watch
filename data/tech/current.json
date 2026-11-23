@@ -1,6 +1,6 @@
 {
  "Adyen": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "7862254": {
     "id": "7862254",
@@ -143,14 +143,8 @@
   }
  },
  "Backbase": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
-   "https://www.backbase.com/careers/jobs/8305310-solution-architect": {
-    "id": "https://www.backbase.com/careers/jobs/8305310-solution-architect",
-    "location": "",
-    "title": "8305310 solution architect",
-    "url": "https://www.backbase.com/careers/jobs/8305310-solution-architect"
-   },
    "https://www.backbase.com/careers/jobs/8305324-project-manager": {
     "id": "https://www.backbase.com/careers/jobs/8305324-project-manager",
     "location": "",
@@ -174,15 +168,27 @@
     "location": "",
     "title": "8392556 ta business partner services",
     "url": "https://www.backbase.com/careers/jobs/8392556-ta-business-partner-services"
+   },
+   "https://www.backbase.com/careers/jobs/8405434-senior-solution-architect": {
+    "id": "https://www.backbase.com/careers/jobs/8405434-senior-solution-architect",
+    "location": "",
+    "title": "8405434 senior solution architect",
+    "url": "https://www.backbase.com/careers/jobs/8405434-senior-solution-architect"
+   },
+   "https://www.backbase.com/careers/jobs/8405439-senior-solution-architect": {
+    "id": "https://www.backbase.com/careers/jobs/8405439-senior-solution-architect",
+    "location": "",
+    "title": "8405439 senior solution architect",
+    "url": "https://www.backbase.com/careers/jobs/8405439-senior-solution-architect"
    }
   }
  },
  "Bird": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {}
  },
  "Bol": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "8230359002": {
     "id": "8230359002",
@@ -223,7 +229,7 @@
   }
  },
  "Bolt": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "https://bolt.eu/en/careers/positions/0eaa3a50-323a-4756-80e0-0c6963b94c31": {
     "id": "https://bolt.eu/en/careers/positions/0eaa3a50-323a-4756-80e0-0c6963b94c31",
@@ -234,7 +240,7 @@
   }
  },
  "Booking": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "29692": {
     "id": "29692",
@@ -278,12 +284,6 @@
     "title": "Commercial Insurance Product Associate",
     "url": "https://jobs.booking.com/booking/jobs/30189"
    },
-   "30195": {
-    "id": "30195",
-    "location": "Amsterdam, Netherlands",
-    "title": "Director Central Technology and Security, Safety & Fraud (SSF) Risk Operations",
-    "url": "https://jobs.booking.com/booking/jobs/30195"
-   },
    "30287": {
     "id": "30287",
     "location": "Amsterdam, Netherlands",
@@ -313,6 +313,12 @@
     "location": "Amsterdam, Netherlands",
     "title": "Project Manager Finance and Procurement Systems",
     "url": "https://jobs.booking.com/booking/jobs/30511"
+   },
+   "30538": {
+    "id": "30538",
+    "location": "Amsterdam, Netherlands",
+    "title": "Security Product Manager",
+    "url": "https://jobs.booking.com/booking/jobs/30538"
    },
    "30552": {
     "id": "30552",
@@ -347,7 +353,7 @@
    "30678": {
     "id": "30678",
     "location": "Amsterdam, Netherlands",
-    "title": "Product Marketing Manager, Flights",
+    "title": "Product Marketing Manager",
     "url": "https://jobs.booking.com/booking/jobs/30678"
    },
    "30743": {
@@ -365,7 +371,7 @@
   }
  },
  "Catawiki": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "https://catawiki.careers/vacancies/senior-director-people-operations-and-facilities-netherlands-3533168-8164032": {
     "id": "https://catawiki.careers/vacancies/senior-director-people-operations-and-facilities-netherlands-3533168-8164032",
@@ -382,7 +388,7 @@
   }
  },
  "Channable": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "2786321": {
     "id": "2786321",
@@ -393,7 +399,7 @@
   }
  },
  "Just Eat Takeaway": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "https://careers.justeattakeaway.com/global/en/job/R_052032/Lead-Security-Business-Partner": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_052032/Lead-Security-Business-Partner",
@@ -406,12 +412,6 @@
     "location": "",
     "title": "Project Manager (m/k/os)",
     "url": "https://careers.justeattakeaway.com/global/en/job/R_052259/Project-Manager-m-k-os"
-   },
-   "https://careers.justeattakeaway.com/global/en/job/R_052784/Application-Specialist-SaaS-Operations-Automation": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_052784/Application-Specialist-SaaS-Operations-Automation",
-    "location": "",
-    "title": "Application Specialist – SaaS Operations & Automation",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_052784/Application-Specialist-SaaS-Operations-Automation"
    },
    "https://careers.justeattakeaway.com/global/en/job/R_052986/Senior-Product-Manager-Partner-Algorithms": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_052986/Senior-Product-Manager-Partner-Algorithms",
@@ -455,12 +455,6 @@
     "title": "Retail Media Analyst",
     "url": "https://careers.justeattakeaway.com/global/en/job/R_053635/Retail-Media-Analyst"
    },
-   "https://careers.justeattakeaway.com/global/en/job/R_053688/Principal-Commercial-Excellence": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_053688/Principal-Commercial-Excellence",
-    "location": "",
-    "title": "Principal Commercial Excellence",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_053688/Principal-Commercial-Excellence"
-   },
    "https://careers.justeattakeaway.com/global/en/job/R_053690/Director-of-Digital-Expansion-Partner-Growth": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_053690/Director-of-Digital-Expansion-Partner-Growth",
     "location": "",
@@ -472,12 +466,6 @@
     "location": "",
     "title": "Country Human Resources Business Partner (1 Year Contract)",
     "url": "https://careers.justeattakeaway.com/global/en/job/R_053692/Country-Human-Resources-Business-Partner-1-Year-Contract"
-   },
-   "https://careers.justeattakeaway.com/global/en/job/R_053717/Principal-Partner-Experience-Manager": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_053717/Principal-Partner-Experience-Manager",
-    "location": "",
-    "title": "Principal Partner Experience Manager",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_053717/Principal-Partner-Experience-Manager"
    },
    "https://careers.justeattakeaway.com/global/en/job/R_053753/AI-Agent-Ops-Lead": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_053753/AI-Agent-Ops-Lead",
@@ -509,17 +497,17 @@
     "title": "Product Analyst",
     "url": "https://careers.justeattakeaway.com/global/en/job/R_053829/Product-Analyst"
    },
+   "https://careers.justeattakeaway.com/global/en/job/R_053868/Product-Manager": {
+    "id": "https://careers.justeattakeaway.com/global/en/job/R_053868/Product-Manager",
+    "location": "",
+    "title": "Product Manager",
+    "url": "https://careers.justeattakeaway.com/global/en/job/R_053868/Product-Manager"
+   },
    "https://careers.justeattakeaway.com/global/en/job/R_053938/Reward-Strategy-Partner": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_053938/Reward-Strategy-Partner",
     "location": "",
     "title": "Reward Strategy Partner",
     "url": "https://careers.justeattakeaway.com/global/en/job/R_053938/Reward-Strategy-Partner"
-   },
-   "https://careers.justeattakeaway.com/global/en/job/R_053939/Senior-Finance-Business-Partner-Strategic-Finance": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_053939/Senior-Finance-Business-Partner-Strategic-Finance",
-    "location": "",
-    "title": "Senior Finance Business Partner - Strategic Finance",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_053939/Senior-Finance-Business-Partner-Strategic-Finance"
    },
    "https://careers.justeattakeaway.com/global/en/job/R_054059/Logistics-Data-Analyst": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_054059/Logistics-Data-Analyst",
@@ -545,12 +533,6 @@
     "title": "Partner & Courier Benefits Manager",
     "url": "https://careers.justeattakeaway.com/global/en/job/R_054068/Partner-Courier-Benefits-Manager"
    },
-   "https://careers.justeattakeaway.com/global/en/job/R_054150/Senior-Finance-Business-Partner-Strategic-Finance": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_054150/Senior-Finance-Business-Partner-Strategic-Finance",
-    "location": "",
-    "title": "Senior Finance Business Partner - Strategic Finance",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_054150/Senior-Finance-Business-Partner-Strategic-Finance"
-   },
    "https://careers.justeattakeaway.com/global/en/job/R_054217/Senior-Delivery-Lead-Commerce-Tech-Growth": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_054217/Senior-Delivery-Lead-Commerce-Tech-Growth",
     "location": "",
@@ -560,7 +542,7 @@
   }
  },
  "Lightspeed": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "https://www.lightspeedhq.com/careers/job/senior-partner-development-manager-hospitality-partnerships/5b6a8237-9f59-4046-a726-9f2363059e9b": {
     "id": "https://www.lightspeedhq.com/careers/job/senior-partner-development-manager-hospitality-partnerships/5b6a8237-9f59-4046-a726-9f2363059e9b",
@@ -571,11 +553,11 @@
   }
  },
  "Miro": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {}
  },
  "Mollie": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "15979103-234f-4017-874e-a4b5c141f063": {
     "id": "15979103-234f-4017-874e-a4b5c141f063",
@@ -628,7 +610,7 @@
   }
  },
  "Netflix": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "790319438097": {
     "id": "790319438097",
@@ -645,7 +627,7 @@
   }
  },
  "Otrium": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "list-76443f88f9c2": {
     "id": "list-76443f88f9c2",
@@ -657,26 +639,36 @@
   }
  },
  "Picnic": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "https://jobs.picnic.app/en/vacancies/J96UDJ5O/graduate-programs/analytics-future-leaders-graduate-program/amsterdam/north-holland/netherlands": {
     "id": "https://jobs.picnic.app/en/vacancies/J96UDJ5O/graduate-programs/analytics-future-leaders-graduate-program/amsterdam/north-holland/netherlands",
     "location": "Graduate Programs | Amsterdam",
     "title": "Analytics - Future Leaders Graduate Program",
     "url": "https://jobs.picnic.app/en/vacancies/J96UDJ5O/graduate-programs/analytics-future-leaders-graduate-program/amsterdam/north-holland/netherlands"
+   },
+   "https://jobs.picnic.app/en/vacancies/JSKWCNZQ/people/people-partner/amsterdam/north-holland/netherlands": {
+    "id": "https://jobs.picnic.app/en/vacancies/JSKWCNZQ/people/people-partner/amsterdam/north-holland/netherlands",
+    "location": "People | Amsterdam",
+    "title": "People Partner",
+    "url": "https://jobs.picnic.app/en/vacancies/JSKWCNZQ/people/people-partner/amsterdam/north-holland/netherlands"
    }
   }
  },
+ "Rituals": {
+  "checked_at": "2026-11-23T07:02:25+00:00",
+  "items": {}
+ },
  "Sendcloud": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {}
  },
  "Swapfiets": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {}
  },
  "Tebi": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "9196e58c-31cb-4dc6-a835-a58e3f4e84be": {
     "id": "9196e58c-31cb-4dc6-a835-a58e3f4e84be",
@@ -687,7 +679,7 @@
   }
  },
  "Tiqets": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "senior-data-analyst-2": {
     "id": "senior-data-analyst-2",
@@ -704,8 +696,14 @@
   }
  },
  "Vinted": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
+   "https://careers.vinted.com/jobs/j/4429199101": {
+    "id": "https://careers.vinted.com/jobs/j/4429199101",
+    "location": "",
+    "title": "Senior Product Manager, Vinted Go",
+    "url": "https://careers.vinted.com/jobs/j/4429199101"
+   },
    "https://careers.vinted.com/jobs/j/4852583101": {
     "id": "https://careers.vinted.com/jobs/j/4852583101",
     "location": "",
@@ -721,7 +719,7 @@
   }
  },
  "Zenchef": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "page-4588f88445eb": {
     "id": "page-4588f88445eb",
@@ -732,7 +730,7 @@
   }
  },
  "bunq": {
-  "checked_at": "2026-11-20T06:53:35+00:00",
+  "checked_at": "2026-11-23T07:02:25+00:00",
   "items": {
    "https://careers.bunq.com/positions/head-of-product-6": {
     "id": "https://careers.bunq.com/positions/head-of-product-6",
