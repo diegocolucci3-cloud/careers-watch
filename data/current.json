@@ -1,6 +1,6 @@
 {
  "Bleep": {
-  "checked_at": "2026-11-24T06:23:07+00:00",
+  "checked_at": "2026-11-25T06:24:09+00:00",
   "items": {
    "page-f7dba9f468c5": {
     "id": "page-f7dba9f468c5",
@@ -11,7 +11,7 @@
   }
  },
  "CM.com": {
-  "checked_at": "2026-11-24T06:23:07+00:00",
+  "checked_at": "2026-11-25T06:24:09+00:00",
   "items": {
    "2697688": {
     "id": "2697688",
@@ -36,12 +36,6 @@
     "location": "Breda, Noord-Brabant, Netherlands",
     "title": "Marketing Internship",
     "url": "https://jobs.cm.com/o/marketing-internship"
-   },
-   "2773469": {
-    "id": "2773469",
-    "location": "Breda, Noord-Brabant, Netherlands",
-    "title": "Finance Internship",
-    "url": "https://jobs.cm.com/o/finance-internship"
    },
    "2773474": {
     "id": "2773474",
@@ -115,6 +109,12 @@
     "title": "Marketing Manager SA",
     "url": "https://jobs.cm.com/o/marketing-manager-sa"
    },
+   "2838342": {
+    "id": "2838342",
+    "location": "Breda, Noord-Brabant, Netherlands",
+    "title": "iOS Developer",
+    "url": "https://jobs.cm.com/o/ios-developer-3"
+   },
    "748554": {
     "id": "748554",
     "location": "Amsterdam, Noord-Holland, Netherlands",
@@ -124,7 +124,7 @@
   }
  },
  "Celebratix": {
-  "checked_at": "2026-11-24T06:23:07+00:00",
+  "checked_at": "2026-11-25T06:24:09+00:00",
   "items": {
    "page-38f9c1cb8948": {
     "id": "page-38f9c1cb8948",
@@ -135,7 +135,7 @@
   }
  },
  "Eventim": {
-  "checked_at": "2026-11-24T06:23:07+00:00",
+  "checked_at": "2026-11-25T06:24:09+00:00",
   "items": {
    "https://careers.eventim.nl/o/client-success-executive-2211": {
     "id": "https://careers.eventim.nl/o/client-success-executive-2211",
@@ -164,7 +164,7 @@
   }
  },
  "Fastlane": {
-  "checked_at": "2026-11-24T06:23:07+00:00",
+  "checked_at": "2026-11-25T06:24:09+00:00",
   "items": {
    "https://www.fastlane.events/en/vacatures/Vacature-customer-success-manager-accountmanager": {
     "id": "https://www.fastlane.events/en/vacatures/Vacature-customer-success-manager-accountmanager",
@@ -199,7 +199,7 @@
   }
  },
  "Fever": {
-  "checked_at": "2026-11-24T06:23:07+00:00",
+  "checked_at": "2026-11-25T06:24:09+00:00",
   "items": {
    "4940985101": {
     "id": "4940985101",
@@ -270,7 +270,7 @@
   }
  },
  "Stager": {
-  "checked_at": "2026-11-24T06:23:07+00:00",
+  "checked_at": "2026-11-25T06:24:09+00:00",
   "items": {
    "operations-executive": {
     "id": "operations-executive",
@@ -287,7 +287,7 @@
   }
  },
  "Tixly": {
-  "checked_at": "2026-11-24T06:23:07+00:00",
+  "checked_at": "2026-11-25T06:24:09+00:00",
   "items": {
    "list-d13bb18cf207": {
     "id": "list-d13bb18cf207",
@@ -299,7 +299,7 @@
   }
  },
  "WeTicket": {
-  "checked_at": "2026-11-24T06:23:07+00:00",
+  "checked_at": "2026-11-25T06:24:09+00:00",
   "items": {
    "page-cb9a9216ef2a": {
     "id": "page-cb9a9216ef2a",
@@ -310,7 +310,7 @@
   }
  },
  "Weeztix": {
-  "checked_at": "2026-11-24T06:23:07+00:00",
+  "checked_at": "2026-11-25T06:24:09+00:00",
   "items": {
    "2220560": {
     "id": "2220560",
