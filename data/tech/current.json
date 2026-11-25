@@ -1,6 +1,6 @@
 {
  "Adyen": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "7862254": {
     "id": "7862254",
@@ -44,6 +44,12 @@
     "title": "Supply Chain Data Engineer & Integration Manager",
     "url": "https://job-boards.greenhouse.io/adyen/jobs/8105603"
    },
+   "8113927": {
+    "id": "8113927",
+    "location": "Amsterdam; Chicago; New York",
+    "title": "Senior Strategy & Operations Manager - Revenue Optimization",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8113927"
+   },
    "8137746": {
     "id": "8137746",
     "location": "Amsterdam",
@@ -61,12 +67,6 @@
     "location": "Amsterdam",
     "title": "Senior Partner Solutions Engineer - Cellular Connectivity",
     "url": "https://job-boards.greenhouse.io/adyen/jobs/8207624"
-   },
-   "8236427": {
-    "id": "8236427",
-    "location": "Amsterdam",
-    "title": "Team Lead - Product Financial Control",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8236427"
    },
    "8243156": {
     "id": "8243156",
@@ -91,6 +91,12 @@
     "location": "Amsterdam",
     "title": "Senior CDD Risk Analyst, Reviews",
     "url": "https://job-boards.greenhouse.io/adyen/jobs/8274233"
+   },
+   "8276792": {
+    "id": "8276792",
+    "location": "Amsterdam; Chicago",
+    "title": "Tech Strategy & Program Manager",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8276792"
    },
    "8278827": {
     "id": "8278827",
@@ -122,11 +128,11 @@
     "title": "Customer Onboarding Manager",
     "url": "https://job-boards.greenhouse.io/adyen/jobs/8328988"
    },
-   "8345923": {
-    "id": "8345923",
+   "8334748": {
+    "id": "8334748",
     "location": "Amsterdam",
-    "title": "(Senior) Product Pricing Strategist",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8345923"
+    "title": "Strategy and Program Manager",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8334748"
    },
    "8345927": {
     "id": "8345927",
@@ -139,12 +145,24 @@
     "location": "Amsterdam",
     "title": "Senior Partner Solution Engineer - Device Assurance",
     "url": "https://job-boards.greenhouse.io/adyen/jobs/8352766"
+   },
+   "8411308": {
+    "id": "8411308",
+    "location": "Amsterdam",
+    "title": "Product Manager - Business Intelligence and Data DevEx",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8411308"
    }
   }
  },
  "Backbase": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
+   "https://www.backbase.com/careers/jobs/8305310-solution-architect": {
+    "id": "https://www.backbase.com/careers/jobs/8305310-solution-architect",
+    "location": "",
+    "title": "8305310 solution architect",
+    "url": "https://www.backbase.com/careers/jobs/8305310-solution-architect"
+   },
    "https://www.backbase.com/careers/jobs/8305324-project-manager": {
     "id": "https://www.backbase.com/careers/jobs/8305324-project-manager",
     "location": "",
@@ -184,11 +202,11 @@
   }
  },
  "Bird": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {}
  },
  "Bol": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "8230359002": {
     "id": "8230359002",
@@ -214,12 +232,6 @@
     "title": "Process Improvement Specialist Supplier Operations",
     "url": "https://banen.bol.com/vacature/8885066002/?gh_jid=8885066002"
    },
-   "8931618002": {
-    "id": "8931618002",
-    "location": "Utrecht",
-    "title": "HR Business Partner",
-    "url": "https://banen.bol.com/vacature/8931618002/?gh_jid=8931618002"
-   },
    "8934978002": {
     "id": "8934978002",
     "location": "Utrecht",
@@ -229,7 +241,7 @@
   }
  },
  "Bolt": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "https://bolt.eu/en/careers/positions/0eaa3a50-323a-4756-80e0-0c6963b94c31": {
     "id": "https://bolt.eu/en/careers/positions/0eaa3a50-323a-4756-80e0-0c6963b94c31",
@@ -240,7 +252,7 @@
   }
  },
  "Booking": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "29692": {
     "id": "29692",
@@ -287,7 +299,7 @@
    "30287": {
     "id": "30287",
     "location": "Amsterdam, Netherlands",
-    "title": "Senior Product Manager",
+    "title": "Senior Product Manager - Flights - Finance Operations",
     "url": "https://jobs.booking.com/booking/jobs/30287"
    },
    "30322": {
@@ -302,6 +314,12 @@
     "title": "Director of Product, Attractions",
     "url": "https://jobs.booking.com/booking/jobs/30344"
    },
+   "30375": {
+    "id": "30375",
+    "location": "Manchester, United Kingdom; Amsterdam, Netherlands",
+    "title": "Group Technical Program Manager: Cloud & Platform Ecosystems",
+    "url": "https://jobs.booking.com/booking/jobs/30375"
+   },
    "30408": {
     "id": "30408",
     "location": "Amsterdam, Netherlands",
@@ -314,23 +332,11 @@
     "title": "Project Manager Finance and Procurement Systems",
     "url": "https://jobs.booking.com/booking/jobs/30511"
    },
-   "30538": {
-    "id": "30538",
+   "30531": {
+    "id": "30531",
     "location": "Amsterdam, Netherlands",
-    "title": "Security Product Manager",
-    "url": "https://jobs.booking.com/booking/jobs/30538"
-   },
-   "30552": {
-    "id": "30552",
-    "location": "Amsterdam, Netherlands",
-    "title": "Senior Account Security Analyst I",
-    "url": "https://jobs.booking.com/booking/jobs/30552"
-   },
-   "30573": {
-    "id": "30573",
-    "location": "Amsterdam, Netherlands",
-    "title": "Customer Success Manager - Spanish speaking",
-    "url": "https://jobs.booking.com/booking/jobs/30573"
+    "title": "Senior Project Manager - Payments",
+    "url": "https://jobs.booking.com/booking/jobs/30531"
    },
    "30577": {
     "id": "30577",
@@ -343,12 +349,6 @@
     "location": "Amsterdam, Netherlands",
     "title": "Insurance Strategy & Operations Associate",
     "url": "https://jobs.booking.com/booking/jobs/30613"
-   },
-   "30647": {
-    "id": "30647",
-    "location": "Amsterdam, Netherlands",
-    "title": "Group Product Manager - Pay-in Products, FinTech",
-    "url": "https://jobs.booking.com/booking/jobs/30647"
    },
    "30678": {
     "id": "30678",
@@ -367,11 +367,23 @@
     "location": "Amsterdam, Netherlands",
     "title": "Product Fellow - Product Strategy, Portfolio Management & Go-to-Market",
     "url": "https://jobs.booking.com/booking/jobs/30760"
+   },
+   "32155": {
+    "id": "32155",
+    "location": "Amsterdam, Netherlands",
+    "title": "Director of Trust & Safety",
+    "url": "https://jobs.booking.com/booking/jobs/32155"
+   },
+   "32168": {
+    "id": "32168",
+    "location": "Amsterdam, Netherlands",
+    "title": "Program Manager",
+    "url": "https://jobs.booking.com/booking/jobs/32168"
    }
   }
  },
  "Catawiki": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "https://catawiki.careers/vacancies/senior-director-people-operations-and-facilities-netherlands-3533168-8164032": {
     "id": "https://catawiki.careers/vacancies/senior-director-people-operations-and-facilities-netherlands-3533168-8164032",
@@ -388,7 +400,7 @@
   }
  },
  "Channable": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "2786321": {
     "id": "2786321",
@@ -399,8 +411,14 @@
   }
  },
  "Just Eat Takeaway": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
+   "https://careers.justeattakeaway.com/global/en/job/R_051567/Operations-Manager-BeLux": {
+    "id": "https://careers.justeattakeaway.com/global/en/job/R_051567/Operations-Manager-BeLux",
+    "location": "",
+    "title": "Operations Manager BeLux",
+    "url": "https://careers.justeattakeaway.com/global/en/job/R_051567/Operations-Manager-BeLux"
+   },
    "https://careers.justeattakeaway.com/global/en/job/R_052032/Lead-Security-Business-Partner": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_052032/Lead-Security-Business-Partner",
     "location": "",
@@ -473,6 +491,12 @@
     "title": "AI Agent Ops Lead",
     "url": "https://careers.justeattakeaway.com/global/en/job/R_053753/AI-Agent-Ops-Lead"
    },
+   "https://careers.justeattakeaway.com/global/en/job/R_053779/Manager-Customer-Lifecycle-CRM-Partner-Campaigns": {
+    "id": "https://careers.justeattakeaway.com/global/en/job/R_053779/Manager-Customer-Lifecycle-CRM-Partner-Campaigns",
+    "location": "",
+    "title": "Manager, Customer Lifecycle, CRM & Partner Campaigns",
+    "url": "https://careers.justeattakeaway.com/global/en/job/R_053779/Manager-Customer-Lifecycle-CRM-Partner-Campaigns"
+   },
    "https://careers.justeattakeaway.com/global/en/job/R_053812/Senior-Product-Manager-Design-System": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_053812/Senior-Product-Manager-Design-System",
     "location": "",
@@ -485,23 +509,11 @@
     "title": "Head of Product Management",
     "url": "https://careers.justeattakeaway.com/global/en/job/R_053826/Head-of-Product-Management"
    },
-   "https://careers.justeattakeaway.com/global/en/job/R_053828/Junior-Product-Analyst": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_053828/Junior-Product-Analyst",
+   "https://careers.justeattakeaway.com/global/en/job/R_053880/People-Analytics-Analyst": {
+    "id": "https://careers.justeattakeaway.com/global/en/job/R_053880/People-Analytics-Analyst",
     "location": "",
-    "title": "Junior Product Analyst",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_053828/Junior-Product-Analyst"
-   },
-   "https://careers.justeattakeaway.com/global/en/job/R_053829/Product-Analyst": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_053829/Product-Analyst",
-    "location": "",
-    "title": "Product Analyst",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_053829/Product-Analyst"
-   },
-   "https://careers.justeattakeaway.com/global/en/job/R_053868/Product-Manager": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_053868/Product-Manager",
-    "location": "",
-    "title": "Product Manager",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_053868/Product-Manager"
+    "title": "People Analytics Analyst",
+    "url": "https://careers.justeattakeaway.com/global/en/job/R_053880/People-Analytics-Analyst"
    },
    "https://careers.justeattakeaway.com/global/en/job/R_053938/Reward-Strategy-Partner": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_053938/Reward-Strategy-Partner",
@@ -509,29 +521,11 @@
     "title": "Reward Strategy Partner",
     "url": "https://careers.justeattakeaway.com/global/en/job/R_053938/Reward-Strategy-Partner"
    },
-   "https://careers.justeattakeaway.com/global/en/job/R_054059/Logistics-Data-Analyst": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_054059/Logistics-Data-Analyst",
+   "https://careers.justeattakeaway.com/global/en/job/R_054128/EIT-Operations-Support-technician": {
+    "id": "https://careers.justeattakeaway.com/global/en/job/R_054128/EIT-Operations-Support-technician",
     "location": "",
-    "title": "Logistics Data Analyst",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_054059/Logistics-Data-Analyst"
-   },
-   "https://careers.justeattakeaway.com/global/en/job/R_054060/Projects-Associate": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_054060/Projects-Associate",
-    "location": "",
-    "title": "Projects Associate",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_054060/Projects-Associate"
-   },
-   "https://careers.justeattakeaway.com/global/en/job/R_054064/Partner-Ops-Associate": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_054064/Partner-Ops-Associate",
-    "location": "",
-    "title": "Partner Ops Associate",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_054064/Partner-Ops-Associate"
-   },
-   "https://careers.justeattakeaway.com/global/en/job/R_054068/Partner-Courier-Benefits-Manager": {
-    "id": "https://careers.justeattakeaway.com/global/en/job/R_054068/Partner-Courier-Benefits-Manager",
-    "location": "",
-    "title": "Partner & Courier Benefits Manager",
-    "url": "https://careers.justeattakeaway.com/global/en/job/R_054068/Partner-Courier-Benefits-Manager"
+    "title": "EIT Operations - Support technician",
+    "url": "https://careers.justeattakeaway.com/global/en/job/R_054128/EIT-Operations-Support-technician"
    },
    "https://careers.justeattakeaway.com/global/en/job/R_054217/Senior-Delivery-Lead-Commerce-Tech-Growth": {
     "id": "https://careers.justeattakeaway.com/global/en/job/R_054217/Senior-Delivery-Lead-Commerce-Tech-Growth",
@@ -542,7 +536,7 @@
   }
  },
  "Lightspeed": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "https://www.lightspeedhq.com/careers/job/senior-partner-development-manager-hospitality-partnerships/5b6a8237-9f59-4046-a726-9f2363059e9b": {
     "id": "https://www.lightspeedhq.com/careers/job/senior-partner-development-manager-hospitality-partnerships/5b6a8237-9f59-4046-a726-9f2363059e9b",
@@ -553,11 +547,11 @@
   }
  },
  "Miro": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {}
  },
  "Mollie": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "15979103-234f-4017-874e-a4b5c141f063": {
     "id": "15979103-234f-4017-874e-a4b5c141f063",
@@ -610,7 +604,7 @@
   }
  },
  "Netflix": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "790319438097": {
     "id": "790319438097",
@@ -627,7 +621,7 @@
   }
  },
  "Otrium": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "list-76443f88f9c2": {
     "id": "list-76443f88f9c2",
@@ -639,7 +633,7 @@
   }
  },
  "Picnic": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "https://jobs.picnic.app/en/vacancies/J96UDJ5O/graduate-programs/analytics-future-leaders-graduate-program/amsterdam/north-holland/netherlands": {
     "id": "https://jobs.picnic.app/en/vacancies/J96UDJ5O/graduate-programs/analytics-future-leaders-graduate-program/amsterdam/north-holland/netherlands",
@@ -660,15 +654,15 @@
   "items": {}
  },
  "Sendcloud": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {}
  },
  "Swapfiets": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {}
  },
  "Tebi": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "9196e58c-31cb-4dc6-a835-a58e3f4e84be": {
     "id": "9196e58c-31cb-4dc6-a835-a58e3f4e84be",
@@ -679,7 +673,7 @@
   }
  },
  "Tiqets": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "senior-data-analyst-2": {
     "id": "senior-data-analyst-2",
@@ -696,19 +690,13 @@
   }
  },
  "Vinted": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
-   "https://careers.vinted.com/jobs/j/4429199101": {
-    "id": "https://careers.vinted.com/jobs/j/4429199101",
+   "https://careers.vinted.com/jobs/j/4777781101": {
+    "id": "https://careers.vinted.com/jobs/j/4777781101",
     "location": "",
-    "title": "Senior Product Manager, Vinted Go",
-    "url": "https://careers.vinted.com/jobs/j/4429199101"
-   },
-   "https://careers.vinted.com/jobs/j/4852583101": {
-    "id": "https://careers.vinted.com/jobs/j/4852583101",
-    "location": "",
-    "title": "Partner Success Coordinator (Dutch Speaking), VintedGo Member Support",
-    "url": "https://careers.vinted.com/jobs/j/4852583101"
+    "title": "Product Manager, Marketplace",
+    "url": "https://careers.vinted.com/jobs/j/4777781101"
    },
    "https://careers.vinted.com/jobs/j/5034631101": {
     "id": "https://careers.vinted.com/jobs/j/5034631101",
@@ -718,8 +706,31 @@
    }
   }
  },
+ "Woolsocks": {
+  "checked_at": "2026-11-25T06:56:10+00:00",
+  "items": {
+   "junior-operations-specialist": {
+    "id": "junior-operations-specialist",
+    "location": "",
+    "title": "Junior Operations Specialist",
+    "url": "https://apc.homerun.co/junior-operations-specialist"
+   },
+   "operations-analyst": {
+    "id": "operations-analyst",
+    "location": "",
+    "title": "Operations Analyst",
+    "url": "https://apc.homerun.co/operations-analyst"
+   },
+   "product-manager-investing": {
+    "id": "product-manager-investing",
+    "location": "",
+    "title": "Product Manager Investing",
+    "url": "https://apc.homerun.co/product-manager-investing"
+   }
+  }
+ },
  "Zenchef": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "page-4588f88445eb": {
     "id": "page-4588f88445eb",
@@ -730,7 +741,7 @@
   }
  },
  "bunq": {
-  "checked_at": "2026-11-23T07:02:25+00:00",
+  "checked_at": "2026-11-25T06:56:10+00:00",
   "items": {
    "https://careers.bunq.com/positions/head-of-product-6": {
     "id": "https://careers.bunq.com/positions/head-of-product-6",
