@@ -1,23 +1,7 @@
 {
- "run_at": "2026-11-25T06:24:09+00:00",
- "new": [
-  {
-   "id": "2838342",
-   "title": "iOS Developer",
-   "url": "https://jobs.cm.com/o/ios-developer-3",
-   "location": "Breda, Noord-Brabant, Netherlands",
-   "company": "CM.com"
-  }
- ],
- "closed": [
-  {
-   "id": "2773469",
-   "location": "Breda, Noord-Brabant, Netherlands",
-   "title": "Finance Internship",
-   "url": "https://jobs.cm.com/o/finance-internship",
-   "company": "CM.com"
-  }
- ],
+ "run_at": "2026-11-26T06:24:10+00:00",
+ "new": [],
+ "closed": [],
  "errors": {},
  "baseline_sources": [],
  "counts": {
