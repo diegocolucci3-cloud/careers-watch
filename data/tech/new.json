@@ -1,249 +1,198 @@
 {
- "run_at": "2026-11-25T06:56:10+00:00",
+ "run_at": "2026-11-27T06:57:06+00:00",
  "new": [
   {
-   "id": "8411308",
-   "title": "Product Manager - Business Intelligence and Data DevEx",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8411308",
+   "id": "8227082",
+   "title": "Product Design Manager, Unified Financial Platform",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8227082",
    "location": "Amsterdam",
    "company": "Adyen"
   },
   {
-   "id": "8113927",
-   "title": "Senior Strategy & Operations Manager - Revenue Optimization",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8113927",
-   "location": "Amsterdam; Chicago; New York",
-   "company": "Adyen"
-  },
-  {
-   "id": "8334748",
-   "title": "Strategy and Program Manager",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8334748",
-   "location": "Amsterdam",
-   "company": "Adyen"
-  },
-  {
-   "id": "8276792",
-   "title": "Tech Strategy & Program Manager",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8276792",
-   "location": "Amsterdam; Chicago",
-   "company": "Adyen"
-  },
-  {
-   "id": "32155",
-   "title": "Director of Trust & Safety",
-   "url": "https://jobs.booking.com/booking/jobs/32155",
+   "id": "30292",
+   "title": "Operational Excellence Manager Finance",
+   "url": "https://jobs.booking.com/booking/jobs/30292",
    "location": "Amsterdam, Netherlands",
-   "company": "Booking"
-  },
-  {
-   "id": "30531",
-   "title": "Senior Project Manager - Payments",
-   "url": "https://jobs.booking.com/booking/jobs/30531",
-   "location": "Amsterdam, Netherlands",
-   "company": "Booking"
-  },
-  {
-   "id": "32168",
-   "title": "Program Manager",
-   "url": "https://jobs.booking.com/booking/jobs/32168",
-   "location": "Amsterdam, Netherlands",
-   "company": "Booking"
-  },
-  {
-   "id": "30375",
-   "title": "Group Technical Program Manager: Cloud & Platform Ecosystems",
-   "url": "https://jobs.booking.com/booking/jobs/30375",
-   "location": "Manchester, United Kingdom; Amsterdam, Netherlands",
-   "company": "Booking"
-  },
-  {
-   "id": "https://www.backbase.com/careers/jobs/8305310-solution-architect",
-   "title": "8305310 solution architect",
-   "url": "https://www.backbase.com/careers/jobs/8305310-solution-architect",
-   "location": "",
-   "company": "Backbase"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_051567/Operations-Manager-BeLux",
-   "title": "Operations Manager BeLux",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_051567/Operations-Manager-BeLux",
-   "location": "",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_053779/Manager-Customer-Lifecycle-CRM-Partner-Campaigns",
-   "title": "Manager, Customer Lifecycle, CRM & Partner Campaigns",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_053779/Manager-Customer-Lifecycle-CRM-Partner-Campaigns",
-   "location": "",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_053880/People-Analytics-Analyst",
-   "title": "People Analytics Analyst",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_053880/People-Analytics-Analyst",
-   "location": "",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_054128/EIT-Operations-Support-technician",
-   "title": "EIT Operations - Support technician",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_054128/EIT-Operations-Support-technician",
-   "location": "",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.vinted.com/jobs/j/4777781101",
-   "title": "Product Manager, Marketplace",
-   "url": "https://careers.vinted.com/jobs/j/4777781101",
-   "location": "",
-   "company": "Vinted"
-  }
- ],
- "closed": [
-  {
-   "id": "8236427",
-   "location": "Amsterdam",
-   "title": "Team Lead - Product Financial Control",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8236427",
-   "company": "Adyen"
-  },
-  {
-   "id": "8345923",
-   "location": "Amsterdam",
-   "title": "(Senior) Product Pricing Strategist",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8345923",
-   "company": "Adyen"
-  },
-  {
-   "id": "8931618002",
-   "location": "Utrecht",
-   "title": "HR Business Partner",
-   "url": "https://banen.bol.com/vacature/8931618002/?gh_jid=8931618002",
-   "company": "Bol"
-  },
-  {
-   "id": "30538",
-   "location": "Amsterdam, Netherlands",
-   "title": "Security Product Manager",
-   "url": "https://jobs.booking.com/booking/jobs/30538",
-   "company": "Booking"
-  },
-  {
-   "id": "30552",
-   "location": "Amsterdam, Netherlands",
-   "title": "Senior Account Security Analyst I",
-   "url": "https://jobs.booking.com/booking/jobs/30552",
    "company": "Booking"
   },
   {
    "id": "30573",
-   "location": "Amsterdam, Netherlands",
    "title": "Customer Success Manager - Spanish speaking",
    "url": "https://jobs.booking.com/booking/jobs/30573",
-   "company": "Booking"
-  },
-  {
-   "id": "30647",
    "location": "Amsterdam, Netherlands",
-   "title": "Group Product Manager - Pay-in Products, FinTech",
-   "url": "https://jobs.booking.com/booking/jobs/30647",
    "company": "Booking"
   },
   {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_053828/Junior-Product-Analyst",
+   "id": "30240",
+   "title": "Financial Analyst",
+   "url": "https://jobs.booking.com/booking/jobs/30240",
+   "location": "Amsterdam, Netherlands",
+   "company": "Booking"
+  },
+  {
+   "id": "product-manager-performance-marketing",
+   "title": "Product Manager Performance Marketing",
+   "url": "https://tiqets.homerun.co/product-manager-performance-marketing",
    "location": "",
-   "title": "Junior Product Analyst",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_053828/Junior-Product-Analyst",
+   "company": "Tiqets"
+  },
+  {
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_053851/Technical-Programme-Manager",
+   "title": "Technical Programme Manager",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_053851/Technical-Programme-Manager",
+   "location": "",
    "company": "Just Eat Takeaway"
   },
   {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_053829/Product-Analyst",
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_054312/Senior-Program-Manager",
+   "title": "Senior Program Manager",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_054312/Senior-Program-Manager",
    "location": "",
-   "title": "Product Analyst",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_053829/Product-Analyst",
    "company": "Just Eat Takeaway"
   },
   {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_053868/Product-Manager",
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_053779/Manager-Customer-Lifecycle-CRM-Partner-Campaigns-12-Month-Contract",
+   "title": "Manager, Customer Lifecycle, CRM & Partner Campaigns- (12 Month Contract)",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_053779/Manager-Customer-Lifecycle-CRM-Partner-Campaigns-12-Month-Contract",
    "location": "",
-   "title": "Product Manager",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_053868/Product-Manager",
    "company": "Just Eat Takeaway"
   },
   {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_054059/Logistics-Data-Analyst",
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_053880/People-Insights-Analyst",
+   "title": "People Insights Analyst",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_053880/People-Insights-Analyst",
    "location": "",
-   "title": "Logistics Data Analyst",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_054059/Logistics-Data-Analyst",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_054060/Projects-Associate",
-   "location": "",
-   "title": "Projects Associate",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_054060/Projects-Associate",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_054064/Partner-Ops-Associate",
-   "location": "",
-   "title": "Partner Ops Associate",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_054064/Partner-Ops-Associate",
-   "company": "Just Eat Takeaway"
-  },
-  {
-   "id": "https://careers.justeattakeaway.com/global/en/job/R_054068/Partner-Courier-Benefits-Manager",
-   "location": "",
-   "title": "Partner & Courier Benefits Manager",
-   "url": "https://careers.justeattakeaway.com/global/en/job/R_054068/Partner-Courier-Benefits-Manager",
    "company": "Just Eat Takeaway"
   },
   {
    "id": "https://careers.vinted.com/jobs/j/4429199101",
-   "location": "",
    "title": "Senior Product Manager, Vinted Go",
    "url": "https://careers.vinted.com/jobs/j/4429199101",
+   "location": "",
    "company": "Vinted"
   },
   {
-   "id": "https://careers.vinted.com/jobs/j/4852583101",
+   "id": "page-5ce6300482dd",
+   "title": "Careers page content changed - check it",
+   "url": "https://www.zenchef.com/join-us",
    "location": "",
-   "title": "Partner Success Coordinator (Dutch Speaking), VintedGo Member Support",
-   "url": "https://careers.vinted.com/jobs/j/4852583101",
-   "company": "Vinted"
+   "company": "Zenchef"
   }
  ],
- "errors": {
-  "Rituals": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\nnavigating to \"https://careers.rituals.com/en-NL/offices/\", waiting until \"domcontentloaded\"\n"
- },
+ "closed": [
+  {
+   "id": "8053785",
+   "location": "Amsterdam",
+   "title": "Head of Operations Analytics",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8053785",
+   "company": "Adyen"
+  },
+  {
+   "id": "8276792",
+   "location": "Amsterdam; Chicago",
+   "title": "Tech Strategy & Program Manager",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8276792",
+   "company": "Adyen"
+  },
+  {
+   "id": "8278827",
+   "location": "Amsterdam",
+   "title": "CDD Risk Analyst, Customer Onboarding",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8278827",
+   "company": "Adyen"
+  },
+  {
+   "id": "30116",
+   "location": "Amsterdam, Netherlands",
+   "title": "Data Products & AI Architect - Enterprise Applications, FinTech",
+   "url": "https://jobs.booking.com/booking/jobs/30116",
+   "company": "Booking"
+  },
+  {
+   "id": "30531",
+   "location": "Amsterdam, Netherlands",
+   "title": "Senior Project Manager - Payments",
+   "url": "https://jobs.booking.com/booking/jobs/30531",
+   "company": "Booking"
+  },
+  {
+   "id": "30743",
+   "location": "Amsterdam, Netherlands",
+   "title": "Senior Process Analyst",
+   "url": "https://jobs.booking.com/booking/jobs/30743",
+   "company": "Booking"
+  },
+  {
+   "id": "6fc5d10c-a8b3-4751-a40c-6f66e9074dcf",
+   "location": "Amsterdam / London (remote)",
+   "title": "Head of Product - Cards",
+   "url": "https://jobs.ashbyhq.com/mollie/6fc5d10c-a8b3-4751-a40c-6f66e9074dcf",
+   "company": "Mollie"
+  },
+  {
+   "id": "82dcd249-54b7-491e-a3e0-517ce6defd42",
+   "location": "London / Amsterdam (remote)",
+   "title": "Head of Product - Cards",
+   "url": "https://jobs.ashbyhq.com/mollie/82dcd249-54b7-491e-a3e0-517ce6defd42",
+   "company": "Mollie"
+  },
+  {
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_053779/Manager-Customer-Lifecycle-CRM-Partner-Campaigns",
+   "location": "",
+   "title": "Manager, Customer Lifecycle, CRM & Partner Campaigns",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_053779/Manager-Customer-Lifecycle-CRM-Partner-Campaigns",
+   "company": "Just Eat Takeaway"
+  },
+  {
+   "id": "https://careers.justeattakeaway.com/global/en/job/R_053880/People-Analytics-Analyst",
+   "location": "",
+   "title": "People Analytics Analyst",
+   "url": "https://careers.justeattakeaway.com/global/en/job/R_053880/People-Analytics-Analyst",
+   "company": "Just Eat Takeaway"
+  },
+  {
+   "id": "page-4588f88445eb",
+   "location": "",
+   "title": "Careers page content changed - check it",
+   "url": "https://www.zenchef.com/join-us",
+   "company": "Zenchef"
+  }
+ ],
+ "errors": {},
  "baseline_sources": [
-  "Woolsocks"
+  "Notion",
+  "Silverflow",
+  "EPI Company",
+  "Klarna"
  ],
  "counts": {
-  "Adyen": 25,
+  "Adyen": 23,
   "Bol": 5,
   "Booking": 21,
   "Channable": 1,
   "Miro": 0,
-  "Mollie": 8,
+  "Mollie": 6,
   "Netflix": 2,
   "Tebi": 1,
-  "Tiqets": 2,
+  "Tiqets": 3,
   "Woolsocks": 3,
+  "Notion": 0,
+  "Silverflow": 0,
   "Backbase": 7,
   "Bird": 0,
   "Bolt": 1,
   "bunq": 3,
   "Catawiki": 2,
-  "Just Eat Takeaway": 20,
+  "Just Eat Takeaway": 22,
   "Lightspeed": 1,
   "Otrium": 1,
   "Picnic": 2,
   "Sendcloud": 0,
   "Swapfiets": 0,
-  "Vinted": 2,
+  "Vinted": 3,
   "Zenchef": 1,
-  "Rituals": 0
+  "Rituals": 0,
+  "EPI Company": 1,
+  "Klarna": 1
  }
 }
