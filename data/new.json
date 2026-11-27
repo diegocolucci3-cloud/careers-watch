@@ -1,9 +1,11 @@
 {
- "run_at": "2026-11-26T06:24:10+00:00",
+ "run_at": "2026-11-27T06:28:07+00:00",
  "new": [],
  "closed": [],
  "errors": {},
- "baseline_sources": [],
+ "baseline_sources": [
+  "Stage Entertainment"
+ ],
  "counts": {
   "CM.com": 18,
   "Fever": 11,
@@ -14,6 +16,7 @@
   "Eventim": 4,
   "Fastlane": 5,
   "Tixly": 1,
-  "WeTicket": 1
+  "WeTicket": 1,
+  "Stage Entertainment": 8
  }
 }
